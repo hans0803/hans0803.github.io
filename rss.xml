@@ -21,22 +21,226 @@
             <webMaster>611011106@gms.ndhu.edu.tw (Hans)</webMaster>
         
         
-        <lastBuildDate>Wed, 30 Mar 2022 20:48:31 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 30 Mar 2022 23:58:58 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://hans0803.github.io/rss.xml" />
         
         
             <item>
-                <title>Project-Proposal</title>
-                <link>https://hans0803.github.io/posts/project-proposal/</link>
-                <guid isPermaLink="true">https://hans0803.github.io/posts/project-proposal/</guid>
+                <title>Project-Proposal-EDA</title>
+                <link>https://hans0803.github.io/posts/project-proposal-eda/</link>
+                <guid isPermaLink="true">https://hans0803.github.io/posts/project-proposal-eda/</guid>
                 <pubDate>Wed, 30 Mar 2022 20:39:49 &#43;0800</pubDate>
                 
                     <author>611011106@gms.ndhu.edu.tw (Hans)</author>
                 
                 
                 
-                    <description></description>
+                    <description>&lt;h2 id=&#34;隊名--kno說的隊&#34;&gt;隊名 : Kno說的隊！&lt;/h2&gt;
+&lt;h2 id=&#34;隊員--施承翰林佳儀王兪涵&#34;&gt;隊員 : 施承翰、林佳儀、王兪涵&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/ee/c2/bf/eec2bfcd13313eddad554948439722b2.gif&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我們想探討學生的學習表現會受到哪些因素影響，進而找出重要的變數用以預測學生的成績，以下是一些初步的資料展示以及將資料放入naive model 的結果&lt;/p&gt;
+&lt;p&gt;資料是從kaggle下載的葡萄牙高中學生數學成績資料，連結如下&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/datasets/uciml/student-alcohol-consumption&#34;&gt;Student Alcohol Consumption&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r&#34; data-lang=&#34;{r&#34;&gt;library(plyr)
+library(dplyr)
+library(plotly)
+library(knitr)
+library(gridExtra)
+library(ggplot2)
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;math&amp;lt;-read.csv(&amp;#34;/Users/shichenghan/Downloads/archive/student-mat.csv&amp;#34;,header=T)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;大概看一下資料&#34;&gt;大概看一下資料&lt;/h3&gt;
+&lt;p&gt;資料裡都是類別變數，大多都是描述學生周遭背景相關的資料，其中還包含學生酗酒的程度&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;str(math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/14/06/97/14069778edb6374362ad931e10936166.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;年齡分佈&#34;&gt;年齡分佈&lt;/h3&gt;
+&lt;p&gt;先看一下資料的年齡分佈，大部分的年齡正好對應到15至18歲，正好是葡萄牙高中的年齡層&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;age &amp;lt;- ggplot(math, aes(age))
+age + geom_bar()
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/66/1c/07/661c075be9d33a9c1c7f6fa3547a5a32.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;母親教育程度&#34;&gt;母親教育程度&lt;/h3&gt;
+&lt;p&gt;0到5分別代表&lt;/p&gt;
+&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;無&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;小學教育（4 年級以下）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;國中（5 至 9 年級）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;高中教育&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;大學教育&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;Medu &amp;lt;- ggplot(math, aes(Medu))
+Medu + geom_bar()
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/43/c0/bb/43c0bb365a2cc19cef450af7228b34af.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;父親教育程度&#34;&gt;父親教育程度&lt;/h3&gt;
+&lt;p&gt;同母親教育程度&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;Fedu &amp;lt;- ggplot(math, aes(Fedu))
+Fedu + geom_bar()
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/b3/41/c9/b341c99d26f8c7f45d745bd3adf8b525.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;兩間學校的男女比例&#34;&gt;兩間學校的男女比例&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;temp &amp;lt;- math %&amp;gt;% group_by(school,sex) %&amp;gt;% summarise(n=n())
+temp$sex &amp;lt;- as.factor(temp$sex)
+ce &amp;lt;- ddply(temp, &amp;#34;sex&amp;#34;, transform,
+percent = n / sum(n) * 100)
+ggplot(ce, aes(x=school, y=percent, fill=sex)) +
+geom_bar(stat=&amp;#34;identity&amp;#34;,position=&amp;#39;dodge&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/62/2d/fc/622dfc1de2e5ee9b756f2054e51fbc0f.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;男女平日飲酒比例&#34;&gt;男女平日飲酒比例&lt;/h3&gt;
+&lt;p&gt;看起來男生比較常在平日喝酒&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;temp &amp;lt;- math %&amp;gt;% group_by(sex,Dalc) %&amp;gt;% summarise(n=n())
+temp$Dalc &amp;lt;- as.factor(temp$Dalc)
+ce &amp;lt;- ddply(temp, &amp;#34;sex&amp;#34;, transform,
+percent = n / sum(n) * 100)
+ggplot(ce, aes(x=sex, y=percent, fill=Dalc)) +
+geom_bar(stat=&amp;#34;identity&amp;#34;,position=&amp;#39;dodge&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/4a/e4/1e/4ae41e8c2b8881591a89120f3bd84ff7.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;男女周末飲酒比例&#34;&gt;男女周末飲酒比例&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;temp &amp;lt;- math %&amp;gt;% group_by(sex,Walc) %&amp;gt;% summarise(n=n())
+temp$Walc &amp;lt;- as.factor(temp$Walc)
+
+ce &amp;lt;- ddply(temp, &amp;#34;sex&amp;#34;, transform,
+percent = n / sum(n) * 100)
+ggplot(ce, aes(x=sex, y=percent, fill=Walc)) +
+geom_bar(stat=&amp;#34;identity&amp;#34;,position=&amp;#39;dodge&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/d6/28/87/d6288767cf3a81074c945652a5de074d.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;喝酒和翹課之間的關係&#34;&gt;喝酒和翹課之間的關係&lt;/h3&gt;
+&lt;p&gt;平日飲酒較多的學生看起來翹課的天數比平日不飲酒的學生更容易翹課&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/a5/e6/52/a5e6529cf4acc6dcbfff3784617cd14a.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;各年齡平日飲酒比例&#34;&gt;各年齡平日飲酒比例&lt;/h3&gt;
+&lt;p&gt;在長條圖中，20歲的只有三人，21、22分別各一人&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;temp &amp;lt;- math %&amp;gt;% group_by(age,Dalc) %&amp;gt;% summarise(n=n())
+temp$Dalc &amp;lt;- as.factor(temp$Dalc)
+ce &amp;lt;- ddply(temp, &amp;#34;age&amp;#34;, transform,
+percent = n / sum(n) * 100)
+ggplot(ce, aes(x=age, y=percent, fill=Dalc)) +
+geom_bar(stat=&amp;#34;identity&amp;#34;,position=&amp;#39;dodge&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/79/6e/21/796e21b2277bc61dcd5b49544d37653b.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;各年齡周末飲酒比例&#34;&gt;各年齡周末飲酒比例&lt;/h3&gt;
+&lt;p&gt;葡萄牙的合法飲酒年齡是16歲&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;temp &amp;lt;- math %&amp;gt;% group_by(age,Walc) %&amp;gt;% summarise(n=n())
+temp$Walc &amp;lt;- as.factor(temp$Walc)
+ce &amp;lt;- ddply(temp, &amp;#34;age&amp;#34;, transform,
+percent = n / sum(n) * 100)
+ggplot(ce, aes(x=age, y=percent, fill=Walc)) +
+geom_bar(stat=&amp;#34;identity&amp;#34;,position=&amp;#39;dodge&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/a7/46/a2/a746a279afedf6f3a9c3406e67570643.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;各年齡談戀愛比例&#34;&gt;各年齡談戀愛比例&lt;/h3&gt;
+&lt;p&gt;戀愛關係的比例看起來隨著年齡上升有增加的趨勢&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;temp &amp;lt;- math %&amp;gt;% group_by(age,romantic) %&amp;gt;% summarise(n=n())
+temp$romantic &amp;lt;- as.factor(temp$romantic)
+ce &amp;lt;- ddply(temp, &amp;#34;age&amp;#34;, transform,
+percent = n / sum(n) * 100)
+ggplot(ce, aes(x=age, y=percent, fill=romantic)) +
+geom_bar(stat=&amp;#34;identity&amp;#34;,position=&amp;#39;dodge&amp;#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/9e/b2/da/9eb2da2fe0113a69b092ba2d3eb152b1.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;性別與成績的關係&#34;&gt;性別與成績的關係&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ sex, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/9e/a8/37/9ea837e6005b0274e6c67cebf5355580.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;每周讀書時間與成績的關係&#34;&gt;每周讀書時間與成績的關係&lt;/h3&gt;
+&lt;p&gt;1: 少於2小時，2: 2至5小時，3: 5至10小時，4: 大於10 小時&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ studytime, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/b2/98/1a/b2981ae0ef8725c65778fca4ca54188b.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;上補習班與成績的關係&#34;&gt;上補習班與成績的關係&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ paid, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/16/d3/0c/16d30c7de6985aacda526c6984a4ab89.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;有無課後輔導與成績的關係&#34;&gt;有無課後輔導與成績的關係&lt;/h3&gt;
+&lt;p&gt;西方國家放學後多參加社團活動，留下來課輔可能是成績不佳？&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ schoolsup, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/77/4b/ca/774bca6a922dd7ac6b4d80e2903cc478.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;翹課天數與成績的關係&#34;&gt;翹課天數與成績的關係&lt;/h3&gt;
+&lt;p&gt;上課天數為93天&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ absences, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/f7/b6/8c/f7b68cf060d79c6aafca8673bb7f6ee8.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;平日飲酒量與成績的關係&#34;&gt;平日飲酒量與成績的關係&lt;/h3&gt;
+&lt;p&gt;1:非常低 ~ 5:非常高&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ Dalc, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/fa/d9/e6/fad9e6f6dd7fb308a9cce5286a1761fc.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;周末飲酒量與成績的關係&#34;&gt;周末飲酒量與成績的關係&lt;/h3&gt;
+&lt;p&gt;1:非常低 ~ 5:非常高&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ Walc, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/5e/87/1e/5e871e07aaf52934e419c66ceb2b1287.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;想接受高等教育的意願與成績的關係&#34;&gt;想接受高等教育的意願與成績的關係&lt;/h3&gt;
+&lt;p&gt;學生本人的學習動機似乎也有影響&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ higher, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/8c/aa/da/8caadad0647480c26ede2816195a2fa7.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;年齡與成績的影響&#34;&gt;年齡與成績的影響&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ age, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/6b/ab/1e/6bab1e04f6fb6c205ca25432d0dfd9e4.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;學生的家庭地址與成績的影響&#34;&gt;學生的家庭地址與成績的影響&lt;/h3&gt;
+&lt;p&gt;&amp;lsquo;U&amp;rsquo;-城市或&amp;rsquo;R&amp;rsquo;-農村&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ address, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/42/fd/05/42fd0569e8de9fcd786216ca71aaf92b.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;家裡到學校的時間與成績的關係&#34;&gt;家裡到學校的時間與成績的關係&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;小於15分鐘&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;15至30分鐘&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;30至60分鐘&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;大於1小時&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ traveltime, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/0c/c3/9f/0cc39faae989984ade85e71ab13e5dce.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;父母的同居狀態與成績的關係&#34;&gt;父母的同居狀態與成績的關係&lt;/h3&gt;
+&lt;p&gt;&amp;lsquo;T&amp;rsquo;-同居或&amp;rsquo;A&amp;rsquo;-分居&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ Pstatus, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/bb/58/4b/bb584b98f8c3818d08f714959fe771ef.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;母親的工作與成績的關係&#34;&gt;母親的工作與成績的關係&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ Mjob, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/6e/53/e1/6e53e105f80a1911bd28de00916ec10a.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;父親的工作與成績的關係&#34;&gt;父親的工作與成績的關係&lt;/h3&gt;
+&lt;p&gt;父親是老師的成績似乎好一些&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ Fjob, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/86/36/89/8636894a802936edae8712187f6d0aa4.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;家庭人數對成績的影響&#34;&gt;家庭人數對成績的影響&lt;/h3&gt;
+&lt;p&gt;&amp;lsquo;LE3&amp;rsquo;-小於或等於3或&amp;rsquo;GT3&amp;rsquo;-大於3&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ famsize, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/df/98/cc/df98ccc08857112143463fc78ea4f8a2.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;母親的教育程度對成績的影響&#34;&gt;母親的教育程度對成績的影響&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ Medu, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/8e/00/00/8e0000de46a52385d4606d7a7904f4d2.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;父親的教育程度對成績的影響&#34;&gt;父親的教育程度對成績的影響&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ Fedu, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/78/d9/cf/78d9cf27fa0d5a8ada0504c35a6edaf0.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;有無談戀愛對成績的影響&#34;&gt;有無談戀愛對成績的影響&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ romantic, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/10/73/99/107399310759a95c0c408eab5203f3d8.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;放學後的空閒時間對成績的影響&#34;&gt;放學後的空閒時間對成績的影響&lt;/h3&gt;
+&lt;p&gt;1:非常低 ~ 5:非常高&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ freetime, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/2c/3c/a8/2c3ca84bf8aee330cabfef2a27ec5e25.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;有無課外活動對成績的影響&#34;&gt;有無課外活動對成績的影響&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ activities, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/36/6c/74/366c748b11a2b13cba8315a401c06b65.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;與朋友外出的頻率對成績的影響&#34;&gt;與朋友外出的頻率對成績的影響&lt;/h3&gt;
+&lt;p&gt;1:非常低 ~ 5:非常高&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ goout, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/d9/a6/ea/d9a6ea87319a651e462c21ce2601643b.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;當前健康狀況對成績的影響&#34;&gt;當前健康狀況對成績的影響&lt;/h3&gt;
+&lt;p&gt;1:非常差 ~ 5:非常好&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;boxplot(G1 ~ health, data = math)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/e9/31/54/e93154f38e57733869ff5a7664446e64.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;naive-model&#34;&gt;Naive Model&lt;/h3&gt;
+&lt;p&gt;下面是用naive regression裡1到3顆星的變數&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/c7/52/47/c75247398fa0dfd121d5972f783593cf.jpg&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+&lt;p&gt;初步的資料觀察大概到這邊，未來會朝模型改進及特徵工程方面做深入探討&lt;/p&gt;
+&lt;h1 id=&#34;報告結束掰噗&#34;&gt;報告結束，掰噗～&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/b6/32/c0/b632c0849ecde88c23e7d90fe174d7c5.gif&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
+</description>
                 
                 
                 
@@ -84,6 +288,7 @@
                 
                     <description>&lt;h2 id=&#34;隊名--kno說的隊&#34;&gt;隊名 : Kno說的隊！&lt;/h2&gt;
 &lt;h2 id=&#34;隊員--施承翰林佳儀王兪涵&#34;&gt;隊員 : 施承翰、林佳儀、王兪涵&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/d2/12/ce/d212ce4c95954faf7427fbe941a554f8.gif&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;curse-of-dimensionality&#34;&gt;Curse of dimensionality&lt;/h3&gt;
 &lt;p&gt;當維度增加時，空間的體積增加得很快，讓可以用的資料變得稀疏。
 例如:要設計自動分辨每張照片的狗或貓辨識機器，設定特徵來辨識，一開始性能因為增加特徵個數提
@@ -120,6 +325,8 @@
 &lt;p&gt;&lt;img src=&#34;https://pic3.zhimg.com/v2-1a9244563f3b961a364789a768b77439_1440w.jpg?source=172ae18b&#34; alt=&#34;IMAGE 2022-03-30 20:28:39&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;over-fitting&#34;&gt;Over fitting&lt;/h3&gt;
 &lt;p&gt;當資料過度擬合於模型時，會導致模型無法良好的適配於其他資料或是使用模型來進行預測。會導致過度擬合的原因可能是模型的變數過多或結構太過於複雜。如果想要解決這個問題可以使用較為簡單的模型輔以交叉驗證(例如k-fold cross-validation)來解決。&lt;/p&gt;
+&lt;h1 id=&#34;這次的主題到這裡結束掰噗&#34;&gt;這次的主題到這裡結束，掰噗～&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/f8/8d/37/f88d37d59512173c6df31ab30efa0a8c.gif&#34; alt=&#34;截圖 2022-03-30 21.42.39&#34;&gt;&lt;/p&gt;
 </description>
                 
                 
