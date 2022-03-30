@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hans Web</title>
+        <link>https://hans0803.github.io/</link>
+        <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
+        <generator>Hugo 0.94.2 https://gohugo.io/</generator>
+        
+            <language>en</language>
+        
+        
+            <managingEditor>611011106@gms.ndhu.edu.tw (Hans)</managingEditor>
+        
+        
+            <webMaster>611011106@gms.ndhu.edu.tw (Hans)</webMaster>
+        
+        
+        <lastBuildDate>Wed, 30 Mar 2022 19:41:30 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://hans0803.github.io/rss.xml" />
+        
+        
+            <item>
+                <title>Hello World</title>
+                <link>https://hans0803.github.io/posts/hello-world/</link>
+                <guid isPermaLink="true">https://hans0803.github.io/posts/hello-world/</guid>
+                <pubDate>Wed, 16 Mar 2022 14:09:45 &#43;0800</pubDate>
+                
+                    <author>611011106@gms.ndhu.edu.tw (Hans)</author>
+                
+                
+                
+                    <description>&lt;p&gt;$a^2+b^2=c^2$&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://hans0803.github.io/categories/adm/">adm</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://hans0803.github.io/tags/ml/">ml</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://hans0803.github.io/tags/stats/">stats</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>

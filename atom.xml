@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title type="text">Hans Web</title>
+    <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
+    <updated>2022-03-30T19:41:30&#43;08:00</updated>
+    <id>https://hans0803.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://hans0803.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://hans0803.github.io/atom.xml" />
+    <author>
+            <name>Hans</name>
+            <uri>https://hans0803.github.io/</uri>
+            
+                <email>611011106@gms.ndhu.edu.tw</email>
+            </author>
+    
+    <generator uri="https://gohugo.io/" version="0.94.2">Hugo</generator>
+        <entry>
+            <title type="text">Hello World</title>
+            <link rel="alternate" type="text/html" href="https://hans0803.github.io/posts/hello-world/" />
+            <id>https://hans0803.github.io/posts/hello-world/</id>
+            <updated>2022-03-30T14:25:58&#43;08:00</updated>
+            <published>2022-03-16T14:09:45&#43;08:00</published>
+            <author>
+                    <name>Hans</name>
+                    <uri>https://hans0803.github.io</uri>
+                    <email>611011106@gms.ndhu.edu.tw</email>
+                    </author>
+            <summary type="html">$a^2+b^2=c^2$</summary>
+            
+                <content type="html">&lt;p&gt;$a^2+b^2=c^2$&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hans0803.github.io/categories/adm/" term="adm" label="adm" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hans0803.github.io/tags/ml/" term="ml" label="ml" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://hans0803.github.io/tags/stats/" term="stats" label="stats" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>
