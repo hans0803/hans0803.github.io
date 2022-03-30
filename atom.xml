@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Hans Web</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-03-30T19:41:30&#43;08:00</updated>
+    <updated>2022-03-30T20:48:31&#43;08:00</updated>
     <id>https://hans0803.github.io/</id>
     <link rel="alternate" type="text/html" href="https://hans0803.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://hans0803.github.io/atom.xml" />
@@ -17,19 +17,113 @@
     
     <generator uri="https://gohugo.io/" version="0.94.2">Hugo</generator>
         <entry>
-            <title type="text">Hello World</title>
-            <link rel="alternate" type="text/html" href="https://hans0803.github.io/posts/hello-world/" />
-            <id>https://hans0803.github.io/posts/hello-world/</id>
-            <updated>2022-03-30T14:25:58&#43;08:00</updated>
+            <title type="text">Project-Proposal</title>
+            <link rel="alternate" type="text/html" href="https://hans0803.github.io/posts/project-proposal/" />
+            <id>https://hans0803.github.io/posts/project-proposal/</id>
+            <updated>2022-03-30T20:48:26&#43;08:00</updated>
+            <published>2022-03-30T20:39:49&#43;08:00</published>
+            <author>
+                    <name>Hans</name>
+                    <uri>https://hans0803.github.io</uri>
+                    <email>611011106@gms.ndhu.edu.tw</email>
+                    </author>
+            <summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hans0803.github.io/categories/kno%E8%AA%AA%E7%9A%84%E9%9A%8A/" term="Kno說的隊！" label="Kno說的隊！" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://hans0803.github.io/tags/ml/" term="ml" label="ml" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://hans0803.github.io/tags/stats/" term="stats" label="stats" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Tags-Recap</title>
+            <link rel="alternate" type="text/html" href="https://hans0803.github.io/posts/tags-recap/" />
+            <id>https://hans0803.github.io/posts/tags-recap/</id>
+            <updated>2022-03-30T20:46:57&#43;08:00</updated>
             <published>2022-03-16T14:09:45&#43;08:00</published>
             <author>
                     <name>Hans</name>
                     <uri>https://hans0803.github.io</uri>
                     <email>611011106@gms.ndhu.edu.tw</email>
                     </author>
-            <summary type="html">$a^2+b^2=c^2$</summary>
+            <summary type="html">隊名 : Kno說的隊！ 隊員 : 施承翰、林佳儀、王兪涵 Curse of dimensionality 當維度增加時，空間的體積增加得很快，讓可以用的資料變得稀疏。 例如:要設計自動分辨每張照片的狗或貓辨識機器，設定特徵來辨識，一開始性能因為增加特徵個數提 升，但增加個數到某個值之後，性能會開始下降，沒有再上升了。
+Classification problem 在機器學習的問題中，如果我們要預測的問題是一個非線性的類別變數(dummy variable)，那這類的問題被稱為classification problem。
+Regression problem 當預測目標是連續變數時，可以使用線性回歸的方式來預測Y，在regression problems中，我們的目標是 minimized square error loss。
+Dimensionality reduction 是指將數據從高維空間轉換到低維空間，因為在許多情況下，數據在高維空間中無法處理，所以需要把數 據降到低維空間。下面的圖是使用iris資料進行不同降維方法的案例。
+  PCA(主成分分析)
+降維的主要線性技術，執行數據到低維空間的線性映射，使得在低維空間中數據的 variance最大化，主成分分析經常用於減少數據集的維數，同時保有數據集對variance 貢獻最大的特徵。
+  LDA
+是Fisher線性判別式的推廣，是一種用於統計、模式識別和機器學習的方法。
+  t-SNE</summary>
             
-                <content type="html">&lt;p&gt;$a^2+b^2=c^2$&lt;/p&gt;
+                <content type="html">&lt;h2 id=&#34;隊名--kno說的隊&#34;&gt;隊名 : Kno說的隊！&lt;/h2&gt;
+&lt;h2 id=&#34;隊員--施承翰林佳儀王兪涵&#34;&gt;隊員 : 施承翰、林佳儀、王兪涵&lt;/h2&gt;
+&lt;h3 id=&#34;curse-of-dimensionality&#34;&gt;Curse of dimensionality&lt;/h3&gt;
+&lt;p&gt;當維度增加時，空間的體積增加得很快，讓可以用的資料變得稀疏。
+例如:要設計自動分辨每張照片的狗或貓辨識機器，設定特徵來辨識，一開始性能因為增加特徵個數提
+升，但增加個數到某個值之後，性能會開始下降，沒有再上升了。&lt;/p&gt;
+&lt;h3 id=&#34;classification-problem&#34;&gt;Classification problem&lt;/h3&gt;
+&lt;p&gt;在機器學習的問題中，如果我們要預測的問題是一個非線性的類別變數(dummy variable)，那這類的問題被稱為classification problem。&lt;/p&gt;
+&lt;h3 id=&#34;regression-problem&#34;&gt;Regression problem&lt;/h3&gt;
+&lt;p&gt;當預測目標是連續變數時，可以使用線性回歸的方式來預測Y，在regression problems中，我們的目標是 minimized square error loss。&lt;/p&gt;
+&lt;h3 id=&#34;dimensionality-reduction&#34;&gt;Dimensionality reduction&lt;/h3&gt;
+&lt;p&gt;是指將數據從高維空間轉換到低維空間，因為在許多情況下，數據在高維空間中無法處理，所以需要把數 據降到低維空間。下面的圖是使用iris資料進行不同降維方法的案例。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;PCA(主成分分析)&lt;/p&gt;
+&lt;p&gt;降維的主要線性技術，執行數據到低維空間的線性映射，使得在低維空間中數據的 variance最大化，主成分分析經常用於減少數據集的維數，同時保有數據集對variance 貢獻最大的特徵。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://scikit-learn.org/stable/_images/sphx_glr_plot_pca_vs_lda_001.png&#34; alt=&#34;IMAGE 2022-03-30 20:28:39&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;LDA&lt;/p&gt;
+&lt;p&gt;是Fisher線性判別式的推廣，是一種用於統計、模式識別和機器學習的方法。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://scikit-learn.org/stable/_images/sphx_glr_plot_pca_vs_lda_002.png&#34; alt=&#34;IMAGE 2022-03-30 20:28:39&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;t-SNE&lt;/p&gt;
+&lt;p&gt;是一種非線性降維技術，可用於高維數據集的可視化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://assets.datacamp.com/production/repositories/3515/datasets/1625a7e34d9729eced3a2cb2b35a8aee1c2b37c3/iris_tsne.png&#34; alt=&#34;IMAGE 2022-03-30 20:28:39&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;MDS&lt;/p&gt;
+&lt;p&gt;是一種線性降維方法。其目標是在新空間中兩個點之間的距離，與原空間中盡量相同。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic3.zhimg.com/v2-1a9244563f3b961a364789a768b77439_1440w.jpg?source=172ae18b&#34; alt=&#34;IMAGE 2022-03-30 20:28:39&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;over-fitting&#34;&gt;Over fitting&lt;/h3&gt;
+&lt;p&gt;當資料過度擬合於模型時，會導致模型無法良好的適配於其他資料或是使用模型來進行預測。會導致過度擬合的原因可能是模型的變數過多或結構太過於複雜。如果想要解決這個問題可以使用較為簡單的模型輔以交叉驗證(例如k-fold cross-validation)來解決。&lt;/p&gt;
 </content>
             
             
@@ -42,7 +136,7 @@
                             
                             
                             
-                                <category scheme="https://hans0803.github.io/categories/adm/" term="adm" label="adm" />
+                                <category scheme="https://hans0803.github.io/categories/kno%E8%AA%AA%E7%9A%84%E9%9A%8A/" term="Kno說的隊！" label="Kno說的隊！" />
                             
                         
                     
