@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Hans Web</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-05-23T12:22:50&#43;08:00</updated>
+    <updated>2022-05-23T12:41:10&#43;08:00</updated>
     <id>https://hans0803.github.io/</id>
     <link rel="alternate" type="text/html" href="https://hans0803.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://hans0803.github.io/atom.xml" />
@@ -20,21 +20,22 @@
             <title type="text">Project_Part_I–Project-Proposal</title>
             <link rel="alternate" type="text/html" href="https://hans0803.github.io/posts/project_part_iproject-proposal/" />
             <id>https://hans0803.github.io/posts/project_part_iproject-proposal/</id>
-            <updated>2022-05-23T12:22:37&#43;08:00</updated>
+            <updated>2022-05-23T12:40:09&#43;08:00</updated>
             <published>2022-05-23T12:20:14&#43;08:00</published>
             <author>
                     <name>Hans</name>
                     <uri>https://hans0803.github.io</uri>
                     <email>611011106@gms.ndhu.edu.tw</email>
                     </author>
-            <summary type="html">影響學生成績的秘密 隊名 : Kno說的隊！ 隊員 : 施承翰、林佳儀、王兪涵 Source  下載來自於 [Kaggle][https://reurl.cc/WrNNDZ]  About Dataset  這筆資料於2008年葡萄牙的兩所高中針對學生們的個人資訊所調查出來的結果 Content  school - 學生的學校（GP，MS） sex - 學生的性別（F，M） age - 學生的年齡（15-22） address - 學生居住地（U - 城市，R - 鄉村） famsize - 家庭人數（LE3 - 少於3人/等於3人，GT3 - 多於3人） Pstatus - 父母同居狀態（T - 同居，A - 分居） Medu - 母親教育程度（0 - 無，1 - 小學（四年級），2 - 五年級至九年級，3 - 中等教育，4 - 高等教育） Fedu - 父親教育程度（0 - 無，1 - 小學（四年級），2 - 五年級至九年級，3 - 中等教育，4 - 高等教育） Mjob - 母親的工作（teacher - 老師，health - 醫療保健相關，services - 民市服務（例如行政或警察），at_home - 在家，other - 其他） Fjob - 父親的工作（teacher - 老師，health - 醫療保健相關，services - 民市服務（例如行政或警察），at_home - 在家，other - 其他） reason - 選擇這所學校的原因（home - 靠近家裡，reputation - 學校名聲，course - 課程偏好，other - 其他） guardian - 學生的監護人(mother - 母親，father - 父親，other - 其他) traveltime - 家裡到學校所花費的時間（1 - 小於15分鐘，2 - 15-30分鐘，3 - 30分鐘-1小時，4 - 大於1小時） studytime - 每週學習的時間（1 - 小於2小時，2 - 2-5小時，3 - 5-10小時，4 - 大於10小時） failures - 過去在課堂上失敗的次數（次數介於0到4之間） schoolsup - 課後輔導（yes，no） famsup - 家人是否支持繼續讀書（yes，no） paid - 有沒有補數學或葡萄牙語（yes，no） activities - 課外活動（yes，no） nursery - 有讀幼稚園（yes，no） higher - 想接受高等教育（yes，no） internet - 在家電腦上網（yes，no） romantic - 有無戀愛（yes，no） famrel - 家庭關係的品質（1 - 非常糟糕 至 5 - 非常好） freetime - 下課後空餘的時間（1 - 非常少 至 5 - 非常多） gout - 與朋友出去（1 - 非常少 至 5 - 非常多） Dalc - 平日喝酒的數量（1 - 非常少 至 5 - 非常多） Walc - 週末喝酒的數量（1 - 非常少 至 5 - 非常多） health - 目前健康狀態（1 - 非常糟糕 至 5 - 非常好） absences - 翹課次數（0 至 93） avggrades - 三個學期考試的平均 Discover  在葡萄牙，三個學期平均成績及格分數是9.</summary>
+            <summary type="html">影響學生成績的秘密 隊名 : Kno說的隊！ 隊員 : 施承翰、林佳儀、王兪涵 Source  下載來自於 Kaggle  About Dataset  這筆資料於2008年葡萄牙的兩所高中針對學生們的個人資訊所調查出來的結果 Content  school - 學生的學校（GP，MS） sex - 學生的性別（F，M） age - 學生的年齡（15-22） address - 學生居住地（U - 城市，R - 鄉村） famsize - 家庭人數（LE3 - 少於3人/等於3人，GT3 - 多於3人） Pstatus - 父母同居狀態（T - 同居，A - 分居） Medu - 母親教育程度（0 - 無，1 - 小學（四年級），2 - 五年級至九年級，3 - 中等教育，4 - 高等教育） Fedu - 父親教育程度（0 - 無，1 - 小學（四年級），2 - 五年級至九年級，3 - 中等教育，4 - 高等教育） Mjob - 母親的工作（teacher - 老師，health - 醫療保健相關，services - 民市服務（例如行政或警察），at_home - 在家，other - 其他） Fjob - 父親的工作（teacher - 老師，health - 醫療保健相關，services - 民市服務（例如行政或警察），at_home - 在家，other - 其他） reason - 選擇這所學校的原因（home - 靠近家裡，reputation - 學校名聲，course - 課程偏好，other - 其他） guardian - 學生的監護人(mother - 母親，father - 父親，other - 其他) traveltime - 家裡到學校所花費的時間（1 - 小於15分鐘，2 - 15-30分鐘，3 - 30分鐘-1小時，4 - 大於1小時） studytime - 每週學習的時間（1 - 小於2小時，2 - 2-5小時，3 - 5-10小時，4 - 大於10小時） failures - 過去在課堂上失敗的次數（次數介於0到4之間） schoolsup - 課後輔導（yes，no） famsup - 家人是否支持繼續讀書（yes，no） paid - 有沒有補數學或葡萄牙語（yes，no） activities - 課外活動（yes，no） nursery - 有讀幼稚園（yes，no） higher - 想接受高等教育（yes，no） internet - 在家電腦上網（yes，no） romantic - 有無戀愛（yes，no） famrel - 家庭關係的品質（1 - 非常糟糕 至 5 - 非常好） freetime - 下課後空餘的時間（1 - 非常少 至 5 - 非常多） gout - 與朋友出去（1 - 非常少 至 5 - 非常多） Dalc - 平日喝酒的數量（1 - 非常少 至 5 - 非常多） Walc - 週末喝酒的數量（1 - 非常少 至 5 - 非常多） health - 目前健康狀態（1 - 非常糟糕 至 5 - 非常好） absences - 翹課次數（0 至 93） avggrades - 三個學期成績的平均 Discover  在葡萄牙，三個學期平均成績及格分數是9.</summary>
             
                 <content type="html">&lt;h1 id=&#34;影響學生成績的秘密&#34;&gt;影響學生成績的秘密&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/b9/df/3c/b9df3cd78b17d6fe66609ddb27a82231.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;隊名--kno說的隊&#34;&gt;隊名 : Kno說的隊！&lt;/h2&gt;
 &lt;h2 id=&#34;隊員--施承翰林佳儀王兪涵&#34;&gt;隊員 : 施承翰、林佳儀、王兪涵&lt;/h2&gt;
 &lt;h2 id=&#34;source&#34;&gt;Source&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;下載來自於 [Kaggle][https://reurl.cc/WrNNDZ]&lt;/li&gt;
+&lt;li&gt;下載來自於 &lt;a href=&#34;https://reurl.cc/WrNNDZ&#34;&gt;Kaggle&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;about-dataset&#34;&gt;About Dataset&lt;/h2&gt;
 &lt;p&gt;
@@ -72,7 +73,7 @@
     &lt;li&gt;Walc - 週末喝酒的數量（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常少&lt;/font&gt; 至 &lt;b&gt;5&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常多&lt;/font&gt;）&lt;/li&gt;
     &lt;li&gt;health - 目前健康狀態（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常糟糕&lt;/font&gt; 至 &lt;b&gt;5&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常好&lt;/font&gt;）&lt;/li&gt;
     &lt;li&gt;absences - 翹課次數（&lt;b&gt;0&lt;/b&gt; 至 &lt;b&gt;93&lt;/b&gt;）&lt;/li&gt;
-    &lt;li&gt;avggrades - 三個學期考試的平均&lt;/li&gt;
+    &lt;li&gt;avggrades - 三個學期成績的平均&lt;/li&gt;
 &lt;h2 id=&#34;discover&#34;&gt;Discover&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在葡萄牙，三個學期平均成績及格分數是&lt;strong&gt;9.4&lt;/strong&gt;分，學生第一學期得到零分，後面就會呈放棄狀態，繼續零分&lt;/li&gt;

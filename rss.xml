@@ -21,7 +21,7 @@
             <webMaster>611011106@gms.ndhu.edu.tw (Hans)</webMaster>
         
         
-        <lastBuildDate>Mon, 23 May 2022 12:22:50 &#43;0800</lastBuildDate>
+        <lastBuildDate>Mon, 23 May 2022 12:41:10 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://hans0803.github.io/rss.xml" />
         
@@ -37,11 +37,12 @@
                 
                 
                     <description>&lt;h1 id=&#34;影響學生成績的秘密&#34;&gt;影響學生成績的秘密&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/originals/b9/df/3c/b9df3cd78b17d6fe66609ddb27a82231.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;隊名--kno說的隊&#34;&gt;隊名 : Kno說的隊！&lt;/h2&gt;
 &lt;h2 id=&#34;隊員--施承翰林佳儀王兪涵&#34;&gt;隊員 : 施承翰、林佳儀、王兪涵&lt;/h2&gt;
 &lt;h2 id=&#34;source&#34;&gt;Source&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;下載來自於 [Kaggle][https://reurl.cc/WrNNDZ]&lt;/li&gt;
+&lt;li&gt;下載來自於 &lt;a href=&#34;https://reurl.cc/WrNNDZ&#34;&gt;Kaggle&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;about-dataset&#34;&gt;About Dataset&lt;/h2&gt;
 &lt;p&gt;
@@ -79,7 +80,7 @@
     &lt;li&gt;Walc - 週末喝酒的數量（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常少&lt;/font&gt; 至 &lt;b&gt;5&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常多&lt;/font&gt;）&lt;/li&gt;
     &lt;li&gt;health - 目前健康狀態（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常糟糕&lt;/font&gt; 至 &lt;b&gt;5&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常好&lt;/font&gt;）&lt;/li&gt;
     &lt;li&gt;absences - 翹課次數（&lt;b&gt;0&lt;/b&gt; 至 &lt;b&gt;93&lt;/b&gt;）&lt;/li&gt;
-    &lt;li&gt;avggrades - 三個學期考試的平均&lt;/li&gt;
+    &lt;li&gt;avggrades - 三個學期成績的平均&lt;/li&gt;
 &lt;h2 id=&#34;discover&#34;&gt;Discover&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在葡萄牙，三個學期平均成績及格分數是&lt;strong&gt;9.4&lt;/strong&gt;分，學生第一學期得到零分，後面就會呈放棄狀態，繼續零分&lt;/li&gt;
