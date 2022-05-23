@@ -21,10 +21,109 @@
             <webMaster>611011106@gms.ndhu.edu.tw (Hans)</webMaster>
         
         
-        <lastBuildDate>Tue, 12 Apr 2022 14:56:52 &#43;0800</lastBuildDate>
+        <lastBuildDate>Mon, 23 May 2022 12:22:50 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://hans0803.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Project_Part_I–Project-Proposal</title>
+                <link>https://hans0803.github.io/posts/project_part_iproject-proposal/</link>
+                <guid isPermaLink="true">https://hans0803.github.io/posts/project_part_iproject-proposal/</guid>
+                <pubDate>Mon, 23 May 2022 12:20:14 &#43;0800</pubDate>
+                
+                    <author>611011106@gms.ndhu.edu.tw (Hans)</author>
+                
+                
+                
+                    <description>&lt;h1 id=&#34;影響學生成績的秘密&#34;&gt;影響學生成績的秘密&lt;/h1&gt;
+&lt;h2 id=&#34;隊名--kno說的隊&#34;&gt;隊名 : Kno說的隊！&lt;/h2&gt;
+&lt;h2 id=&#34;隊員--施承翰林佳儀王兪涵&#34;&gt;隊員 : 施承翰、林佳儀、王兪涵&lt;/h2&gt;
+&lt;h2 id=&#34;source&#34;&gt;Source&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;下載來自於 [Kaggle][https://reurl.cc/WrNNDZ]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;about-dataset&#34;&gt;About Dataset&lt;/h2&gt;
+&lt;p&gt;
+    這筆資料於2008年葡萄牙的兩所高中針對學生們的個人資訊所調查出來的結果
+    &lt;/p&gt;
+&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
+&lt;ol&gt;
+    &lt;li&gt;school - 學生的學校（&lt;b&gt;GP&lt;/b&gt;，&lt;b&gt;MS&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;sex - 學生的性別（&lt;b&gt;F&lt;/b&gt;，&lt;b&gt;M&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;age - 學生的年齡（&lt;b&gt;15-22&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;address - 學生居住地（&lt;b&gt;U&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;城市&lt;/font&gt;，&lt;b&gt;R&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;鄉村&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;famsize - 家庭人數（&lt;b&gt;LE3&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;少於3人/等於3人&lt;/font&gt;，&lt;b&gt;GT3&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;多於3人&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;Pstatus - 父母同居狀態（&lt;b&gt;T&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;同居&lt;/font&gt;，&lt;b&gt;A&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;分居&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;Medu - 母親教育程度（&lt;b&gt;0&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;無&lt;/font&gt;，&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;小學（四年級）&lt;/font&gt;，&lt;b&gt;2&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;五年級至九年級&lt;/font&gt;，&lt;b&gt;3&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;中等教育&lt;/font&gt;，&lt;b&gt;4&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;高等教育&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;Fedu - 父親教育程度（&lt;b&gt;0&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;無&lt;/font&gt;，&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;小學（四年級）&lt;/font&gt;，&lt;b&gt;2&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;五年級至九年級&lt;/font&gt;，&lt;b&gt;3&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;中等教育&lt;/font&gt;，&lt;b&gt;4&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;高等教育&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;Mjob - 母親的工作（&lt;b&gt;teacher&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;老師&lt;/font&gt;，&lt;b&gt;health&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;醫療保健相關&lt;/font&gt;，&lt;b&gt;services&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;民市服務（例如行政或警察）&lt;/font&gt;，&lt;b&gt;at_home&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;在家&lt;/font&gt;，&lt;b&gt;other&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;其他&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;Fjob - 父親的工作（&lt;b&gt;teacher&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;老師&lt;/font&gt;，&lt;b&gt;health&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;醫療保健相關&lt;/font&gt;，&lt;b&gt;services&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;民市服務（例如行政或警察）&lt;/font&gt;，&lt;b&gt;at_home&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;在家&lt;/font&gt;，&lt;b&gt;other&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;其他&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;reason - 選擇這所學校的原因（&lt;b&gt;home&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;靠近家裡&lt;/font&gt;，&lt;b&gt;reputation&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;學校名聲&lt;/font&gt;，&lt;b&gt;course&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;課程偏好&lt;/font&gt;，&lt;b&gt;other&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;其他&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;guardian - 學生的監護人(&lt;b&gt;mother&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;母親&lt;/font&gt;，&lt;b&gt;father&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;父親&lt;/font&gt;，&lt;b&gt;other&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;其他&lt;/font&gt;)&lt;/li&gt;
+    &lt;li&gt;traveltime - 家裡到學校所花費的時間（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;小於15分鐘&lt;/font&gt;，&lt;b&gt;2&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;15-30分鐘&lt;/font&gt;，&lt;b&gt;3&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;30分鐘-1小時&lt;/font&gt;，&lt;b&gt;4&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;大於1小時&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;studytime - 每週學習的時間（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;小於2小時&lt;/font&gt;，&lt;b&gt;2&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;2-5小時&lt;/font&gt;，&lt;b&gt;3&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;5-10小時&lt;/font&gt;，&lt;b&gt;4&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;大於10小時&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;failures - 過去在課堂上失敗的次數（&lt;b&gt;次數介於0到4之間&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;schoolsup - 課後輔導（&lt;b&gt;yes&lt;/b&gt;，&lt;b&gt;no&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;famsup - 家人是否支持繼續讀書（&lt;b&gt;yes&lt;/b&gt;，&lt;b&gt;no&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;paid - 有沒有補數學或葡萄牙語（&lt;b&gt;yes&lt;/b&gt;，&lt;b&gt;no&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;activities - 課外活動（&lt;b&gt;yes&lt;/b&gt;，&lt;b&gt;no&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;nursery - 有讀幼稚園（&lt;b&gt;yes&lt;/b&gt;，&lt;b&gt;no&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;higher - 想接受高等教育（&lt;b&gt;yes&lt;/b&gt;，&lt;b&gt;no&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;internet - 在家電腦上網（&lt;b&gt;yes&lt;/b&gt;，&lt;b&gt;no&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;romantic - 有無戀愛（&lt;b&gt;yes&lt;/b&gt;，&lt;b&gt;no&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;famrel - 家庭關係的品質（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常糟糕&lt;/font&gt; 至 &lt;b&gt;5&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常好&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;freetime - 下課後空餘的時間（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常少&lt;/font&gt; 至 &lt;b&gt;5&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常多&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;gout - 與朋友出去（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常少&lt;/font&gt; 至 &lt;b&gt;5&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常多&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;Dalc - 平日喝酒的數量（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常少&lt;/font&gt; 至 &lt;b&gt;5&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常多&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;Walc - 週末喝酒的數量（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常少&lt;/font&gt; 至 &lt;b&gt;5&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常多&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;health - 目前健康狀態（&lt;b&gt;1&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常糟糕&lt;/font&gt; 至 &lt;b&gt;5&lt;/b&gt; - &lt;font color=&#34;#ADADAD&#34;&gt;非常好&lt;/font&gt;）&lt;/li&gt;
+    &lt;li&gt;absences - 翹課次數（&lt;b&gt;0&lt;/b&gt; 至 &lt;b&gt;93&lt;/b&gt;）&lt;/li&gt;
+    &lt;li&gt;avggrades - 三個學期考試的平均&lt;/li&gt;
+&lt;h2 id=&#34;discover&#34;&gt;Discover&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在葡萄牙，三個學期平均成績及格分數是&lt;strong&gt;9.4&lt;/strong&gt;分，學生第一學期得到零分，後面就會呈放棄狀態，繼續零分&lt;/li&gt;
+&lt;li&gt;此學期考試零分的學生在上學期成績大約落在後25%&lt;/li&gt;
+&lt;li&gt;常在喝酒的學生翹課次數也很多&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/55/4b/a7/554ba75032366575a2fa550afc87111b.jpg&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.pinimg.com/564x/0c/07/8f/0c078fc30b609bc5a04d7566beefa187.jpg&#34; alt=&#34;2&#34;&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://hans0803.github.io/categories/kno%E8%AA%AA%E7%9A%84%E9%9A%8A/">Kno說的隊！</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://hans0803.github.io/tags/ml/">ml</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://hans0803.github.io/tags/stats/">stats</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Project-Proposal-EDA</title>
