@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQLZOO on Hans Website</title>
+    <link>http://localhost:1313/tags/sqlzoo/</link>
+    <description>Recent content in SQLZOO on Hans Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <copyright>期許自己能在資料科學的路上走得更遠</copyright>
+    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/sqlzoo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQLZOO解答與討論（JOIN）</title>
+      <link>http://localhost:1313/posts/sql_-sqlzoo_joinans/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/sql_-sqlzoo_joinans/</guid>
+      <description>About Data # 這裡是我在 SQLZOO這個網站的學習紀錄，這篇文章對應的章節是The Join operation。我會在下說明我的解題過程。首先讓我們來看到這個章節所使用的資料表：</description>
+      
+    </item>
+    
+  </channel>
+</rss>
