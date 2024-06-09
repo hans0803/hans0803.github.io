@@ -2,28 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linear Regression on Hans Website</title>
-    <link>https://hans0803.github.io/tags/linear-regression/</link>
+    <link>http://localhost:1313/tags/linear-regression/</link>
     <description>Recent content in Linear Regression on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Mon, 27 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/tags/linear-regression/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>二手車價格預測</title>
-      <link>https://hans0803.github.io/projects/r_car_analysis/</link>
-      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://hans0803.github.io/projects/r_car_analysis/</guid>
-      <description>Introduction # 這筆資料來自於Kaggle，背景為車商需要為購買他們新車的顧客提供二手車折扣服務，但又需要確保收購二手車的價格與轉售後的價錢可以得到足夠的利潤而不至於賠錢，在這次分析中，我們的目標是建立一個模型來預測二手車的預期售價，同時希望我們的模型能有足夠的解釋效力來說明影響二手車售價的可能因素有哪些。</description>
-      
-    </item>
-    
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/linear-regression/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>藍莓產量預測報告</title>
-      <link>https://hans0803.github.io/projects/kaggle_s3e14/</link>
+      <link>http://localhost:1313/projects/kaggle_s3e14/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://hans0803.github.io/projects/kaggle_s3e14/</guid>
+      <guid>http://localhost:1313/projects/kaggle_s3e14/</guid>
       <description>藍莓因其豐富的營養成分常被譽為超級食物，因此引起了人們對其健康益處和烹飪多樣性的高度關注。在各種藍莓品種中，野生藍莓以其高含量的維生素、錳、花青素、類胡蘿蔔素、鉀、鋅和抗氧化劑而脫穎而出。值得注意的是，與栽培藍莓相比，野生藍莓的抗氧化劑含量顯著更高，使其成為農業市場上一種備受追捧的商品。</description>
       
     </item>

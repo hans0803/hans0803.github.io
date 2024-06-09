@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cheng-Han Shih on Hans Website</title>
-    <link>https://hans0803.github.io/authors/cheng-han-shih/</link>
+    <link>http://localhost:1313/authors/cheng-han-shih/</link>
     <description>Recent content in Cheng-Han Shih on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/authors/cheng-han-shih/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/cheng-han-shih/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQLZOO解答與討論（More JOIN）</title>
-      <link>https://hans0803.github.io/posts/sql_sqlzoo_morejoinans/</link>
+      <link>http://localhost:1313/posts/sql_sqlzoo_morejoinans/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://hans0803.github.io/posts/sql_sqlzoo_morejoinans/</guid>
+      <guid>http://localhost:1313/posts/sql_sqlzoo_morejoinans/</guid>
       <description>About Data # 這是SQLZOO學習紀錄系列的第二篇，這篇文章對應的章節是More JOIN operations。我會在下方說明我的解題過程。讓我們來看到這次所使用的資料表：</description>
       
     </item>
     
     <item>
       <title>SQLZOO解答與討論（JOIN）</title>
-      <link>https://hans0803.github.io/posts/sql_-sqlzoo_joinans/</link>
+      <link>http://localhost:1313/posts/sql_-sqlzoo_joinans/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://hans0803.github.io/posts/sql_-sqlzoo_joinans/</guid>
+      <guid>http://localhost:1313/posts/sql_-sqlzoo_joinans/</guid>
       <description>About Data # 這裡是我在 SQLZOO這個網站的學習紀錄，這篇文章對應的章節是The Join operation。我會在下方說明我的解題過程。首先讓我們來看到這個章節所使用的資料表：</description>
       
     </item>
