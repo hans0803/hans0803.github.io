@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Hans Website</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://hans0803.github.io/posts/</link>
     <description>Recent content in Posts on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQLZOO解答與討論（More JOIN）</title>
-      <link>http://localhost:1313/posts/sql_sqlzoo_morejoinans/</link>
+      <link>https://hans0803.github.io/posts/sql_sqlzoo_morejoinans/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/sql_sqlzoo_morejoinans/</guid>
+      <guid>https://hans0803.github.io/posts/sql_sqlzoo_morejoinans/</guid>
       <description>About Data # 這是SQLZOO學習紀錄系列的第二篇，這篇文章對應的章節是More JOIN operations。我會在下方說明我的解題過程。讓我們來看到這次所使用的資料表：</description>
       
     </item>
     
     <item>
       <title>SQLZOO解答與討論（JOIN）</title>
-      <link>http://localhost:1313/posts/sql_-sqlzoo_joinans/</link>
+      <link>https://hans0803.github.io/posts/sql_-sqlzoo_joinans/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/sql_-sqlzoo_joinans/</guid>
+      <guid>https://hans0803.github.io/posts/sql_-sqlzoo_joinans/</guid>
       <description>About Data # 這裡是我在 SQLZOO這個網站的學習紀錄，這篇文章對應的章節是The Join operation。我會在下方說明我的解題過程。首先讓我們來看到這個章節所使用的資料表：</description>
       
     </item>
     
     <item>
       <title>繪製基於GGMap的公車路線圖</title>
-      <link>http://localhost:1313/posts/r_ggmap/</link>
+      <link>https://hans0803.github.io/posts/r_ggmap/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/r_ggmap/</guid>
+      <guid>https://hans0803.github.io/posts/r_ggmap/</guid>
       <description>這段程式碼是使用 R 語言的 ggmap 和 ggforce 函式庫來繪製地圖並在地圖上標註指定位置的周圍半徑範圍內的圓形區域。以下是程式碼的主要步驟：</description>
       
     </item>
     
     <item>
       <title>拒絕抽樣實作</title>
-      <link>http://localhost:1313/posts/r_rejection_sampling/</link>
+      <link>https://hans0803.github.io/posts/r_rejection_sampling/</link>
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/r_rejection_sampling/</guid>
+      <guid>https://hans0803.github.io/posts/r_rejection_sampling/</guid>
       <description>Question # 我們想要以Ｒ語言實作拒絕抽樣的模擬實作，在這裡我們會以蒙地卡羅的方法來將目標函數以覆蓋接受域的作法來實現它。</description>
       
     </item>
     
     <item>
       <title>多種積分函數實作</title>
-      <link>http://localhost:1313/posts/r_intergate/</link>
+      <link>https://hans0803.github.io/posts/r_intergate/</link>
       <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/r_intergate/</guid>
+      <guid>https://hans0803.github.io/posts/r_intergate/</guid>
       <description>這裏我們將使用黎曼積分法、梯形積分法、辛普森積分法及蒙地卡羅積分法來實作他，下面是他們分別簡單的介紹。</description>
       
     </item>

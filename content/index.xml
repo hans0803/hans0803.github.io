@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contents on Hans Website</title>
-    <link>http://localhost:1313/content/</link>
+    <link>https://hans0803.github.io/content/</link>
     <description>Recent content in Contents on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/content/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/content/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/content/about/</link>
+      <link>https://hans0803.github.io/content/about/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/content/about/</guid>
+      <guid>https://hans0803.github.io/content/about/</guid>
       <description>My name is Cheng-Han Shih.</description>
       
     </item>
     
     <item>
       <title>Plotting Bus Routes Based on GGMap</title>
-      <link>http://localhost:1313/content/posts/r_ggmap/</link>
+      <link>https://hans0803.github.io/content/posts/r_ggmap/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/content/posts/r_ggmap/</guid>
+      <guid>https://hans0803.github.io/content/posts/r_ggmap/</guid>
       <description>This code uses the ggmap and ggforce libraries in R to draw a map and mark circular areas within a specified radius around given locations on the map.</description>
       
     </item>
     
     <item>
       <title>PREDICTION OF BLUEBERRY YIELD</title>
-      <link>http://localhost:1313/content/projects/kaggle_s3e14/</link>
+      <link>https://hans0803.github.io/content/projects/kaggle_s3e14/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/content/projects/kaggle_s3e14/</guid>
+      <guid>https://hans0803.github.io/content/projects/kaggle_s3e14/</guid>
       <description>Blueberries are often hailed as a superfood due to their rich nutritional content, thus garnering high interest in their health benefits and culinary versatility.</description>
       
     </item>

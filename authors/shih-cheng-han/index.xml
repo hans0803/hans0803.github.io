@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shih Cheng Han on Hans Website</title>
-    <link>http://localhost:1313/authors/shih-cheng-han/</link>
+    <link>https://hans0803.github.io/authors/shih-cheng-han/</link>
     <description>Recent content in Shih Cheng Han on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/shih-cheng-han/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/authors/shih-cheng-han/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementation of Rejection Sampling Methods</title>
-      <link>http://localhost:1313/posts/r_rejection_sampling/</link>
+      <link>https://hans0803.github.io/posts/r_rejection_sampling/</link>
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/r_rejection_sampling/</guid>
+      <guid>https://hans0803.github.io/posts/r_rejection_sampling/</guid>
       <description>Firstly, we need to define a target function f and specify a generation range [a, b].</description>
       
     </item>

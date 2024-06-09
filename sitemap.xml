@@ -3,73 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://hans0803.github.io/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://hans0803.github.io/posts/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/sql_sqlzoo_morejoinans/</loc>
+    <loc>https://hans0803.github.io/posts/sql_sqlzoo_morejoinans/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/sql_-sqlzoo_joinans/</loc>
+    <loc>https://hans0803.github.io/posts/sql_-sqlzoo_joinans/</loc>
     <lastmod>2024-05-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://hans0803.github.io/projects/</loc>
     <lastmod>2024-05-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/r_car_analysis/</loc>
+    <loc>https://hans0803.github.io/projects/r_car_analysis/</loc>
     <lastmod>2024-05-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://hans0803.github.io/about/</loc>
     <lastmod>2024-05-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/r_ggmap/</loc>
+    <loc>https://hans0803.github.io/posts/r_ggmap/</loc>
     <lastmod>2024-04-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/kaggle_s3e14/</loc>
+    <loc>https://hans0803.github.io/projects/kaggle_s3e14/</loc>
     <lastmod>2023-06-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/r_recommender/</loc>
+    <loc>https://hans0803.github.io/projects/r_recommender/</loc>
     <lastmod>2022-12-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/r_rejection_sampling/</loc>
+    <loc>https://hans0803.github.io/posts/r_rejection_sampling/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/r_intergate/</loc>
+    <loc>https://hans0803.github.io/posts/r_intergate/</loc>
     <lastmod>2022-02-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

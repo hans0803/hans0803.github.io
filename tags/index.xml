@@ -2,138 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hans Website</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://hans0803.github.io/tags/</link>
     <description>Recent content in Tags on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQLZOO</title>
-      <link>http://localhost:1313/tags/sqlzoo/</link>
+      <link>https://hans0803.github.io/tags/sqlzoo/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/sqlzoo/</guid>
+      <guid>https://hans0803.github.io/tags/sqlzoo/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Linear Regression</title>
-      <link>http://localhost:1313/tags/linear-regression/</link>
+      <link>https://hans0803.github.io/tags/linear-regression/</link>
       <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/linear-regression/</guid>
+      <guid>https://hans0803.github.io/tags/linear-regression/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>GGMAP</title>
-      <link>http://localhost:1313/tags/ggmap/</link>
+      <link>https://hans0803.github.io/tags/ggmap/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ggmap/</guid>
+      <guid>https://hans0803.github.io/tags/ggmap/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>R語言繪圖</title>
-      <link>http://localhost:1313/tags/r%E8%AA%9E%E8%A8%80%E7%B9%AA%E5%9C%96/</link>
+      <link>https://hans0803.github.io/tags/r%E8%AA%9E%E8%A8%80%E7%B9%AA%E5%9C%96/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/r%E8%AA%9E%E8%A8%80%E7%B9%AA%E5%9C%96/</guid>
+      <guid>https://hans0803.github.io/tags/r%E8%AA%9E%E8%A8%80%E7%B9%AA%E5%9C%96/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LightGBM</title>
-      <link>http://localhost:1313/tags/lightgbm/</link>
+      <link>https://hans0803.github.io/tags/lightgbm/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/lightgbm/</guid>
+      <guid>https://hans0803.github.io/tags/lightgbm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Random Forest</title>
-      <link>http://localhost:1313/tags/random-forest/</link>
+      <link>https://hans0803.github.io/tags/random-forest/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/random-forest/</guid>
+      <guid>https://hans0803.github.io/tags/random-forest/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>XGBoost</title>
-      <link>http://localhost:1313/tags/xgboost/</link>
+      <link>https://hans0803.github.io/tags/xgboost/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/xgboost/</guid>
+      <guid>https://hans0803.github.io/tags/xgboost/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>FunkSVD</title>
-      <link>http://localhost:1313/tags/funksvd/</link>
+      <link>https://hans0803.github.io/tags/funksvd/</link>
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/funksvd/</guid>
+      <guid>https://hans0803.github.io/tags/funksvd/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Item Base</title>
-      <link>http://localhost:1313/tags/item-base/</link>
+      <link>https://hans0803.github.io/tags/item-base/</link>
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/item-base/</guid>
+      <guid>https://hans0803.github.io/tags/item-base/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>User Base</title>
-      <link>http://localhost:1313/tags/user-base/</link>
+      <link>https://hans0803.github.io/tags/user-base/</link>
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/user-base/</guid>
+      <guid>https://hans0803.github.io/tags/user-base/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>R語言程式</title>
-      <link>http://localhost:1313/tags/r%E8%AA%9E%E8%A8%80%E7%A8%8B%E5%BC%8F/</link>
+      <link>https://hans0803.github.io/tags/r%E8%AA%9E%E8%A8%80%E7%A8%8B%E5%BC%8F/</link>
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/r%E8%AA%9E%E8%A8%80%E7%A8%8B%E5%BC%8F/</guid>
+      <guid>https://hans0803.github.io/tags/r%E8%AA%9E%E8%A8%80%E7%A8%8B%E5%BC%8F/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>拒絕抽樣</title>
-      <link>http://localhost:1313/tags/%E6%8B%92%E7%B5%95%E6%8A%BD%E6%A8%A3/</link>
+      <link>https://hans0803.github.io/tags/%E6%8B%92%E7%B5%95%E6%8A%BD%E6%A8%A3/</link>
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/%E6%8B%92%E7%B5%95%E6%8A%BD%E6%A8%A3/</guid>
+      <guid>https://hans0803.github.io/tags/%E6%8B%92%E7%B5%95%E6%8A%BD%E6%A8%A3/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>積分</title>
-      <link>http://localhost:1313/tags/%E7%A9%8D%E5%88%86/</link>
+      <link>https://hans0803.github.io/tags/%E7%A9%8D%E5%88%86/</link>
       <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/%E7%A9%8D%E5%88%86/</guid>
+      <guid>https://hans0803.github.io/tags/%E7%A9%8D%E5%88%86/</guid>
       <description></description>
       
     </item>

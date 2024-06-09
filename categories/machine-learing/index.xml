@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learing on Hans Website</title>
-    <link>http://localhost:1313/categories/machine-learing/</link>
+    <link>https://hans0803.github.io/categories/machine-learing/</link>
     <description>Recent content in Machine Learing on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/machine-learing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/categories/machine-learing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PREDICTION OF BLUEBERRY YIELD</title>
-      <link>http://localhost:1313/projects/kaggle_s3e14/</link>
+      <link>https://hans0803.github.io/projects/kaggle_s3e14/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/kaggle_s3e14/</guid>
+      <guid>https://hans0803.github.io/projects/kaggle_s3e14/</guid>
       <description>Blueberries are often hailed as a superfood due to their rich nutritional content, thus garnering high interest in their health benefits and culinary versatility.</description>
       
     </item>

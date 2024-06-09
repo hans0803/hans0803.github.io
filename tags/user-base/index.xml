@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>User Base on Hans Website</title>
-    <link>http://localhost:1313/tags/user-base/</link>
+    <link>https://hans0803.github.io/tags/user-base/</link>
     <description>Recent content in User Base on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Wed, 21 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/user-base/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/tags/user-base/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MovieLens 100k 推薦系統</title>
-      <link>http://localhost:1313/projects/r_recommender/</link>
+      <link>https://hans0803.github.io/projects/r_recommender/</link>
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/r_recommender/</guid>
+      <guid>https://hans0803.github.io/projects/r_recommender/</guid>
       <description>欣賞電影與劇集是現代人眾多生活消遣之一，而如何推薦一部令使用者滿意的影集也成為各個應用程式在現代科技發達下的新戰場。我們生活中處處皆充滿了推薦系統的影子，舉凡購物網站、社群媒體、甚至連搜尋引擎均是如此，而我基於對這個領域的好奇心，加上在碩士論文研究上有考慮向推薦系統發展的緣故，這個學期我跨系修習了資工系的推薦系統課程，因此也就衍生出了這份期末報告，由於教授課程規劃的緣故，所有的報告統一均採用 MovieLens 100k 這筆資料，而這次的報告也在課程中拿到最好的成績。</description>
       
     </item>

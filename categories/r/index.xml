@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Hans Website</title>
-    <link>http://localhost:1313/categories/r/</link>
+    <link>https://hans0803.github.io/categories/r/</link>
     <description>Recent content in R on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Wed, 21 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MOVIELENS 100K RECOMMENDER SYSTEM</title>
-      <link>http://localhost:1313/projects/r_recommender/</link>
+      <link>https://hans0803.github.io/projects/r_recommender/</link>
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/r_recommender/</guid>
+      <guid>https://hans0803.github.io/projects/r_recommender/</guid>
       <description>Watching movies and series is one of the many leisure activities of modern people, and how to recommend a show that satisfies users has become a new battleground for various applications in the era of advanced technology.</description>
       
     </item>
