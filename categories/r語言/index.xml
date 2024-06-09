@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/r%E8%AA%9E%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/r%E8%AA%9E%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>二手車價格預測</title>
+      <link>http://localhost:1313/projects/r_car_analysis/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/r_car_analysis/</guid>
+      <description>Introduction # 這筆資料來自於Kaggle，背景為車商需要為購買他們新車的顧客提供二手車折扣服務，但又需要確保收購二手車的價格與轉售後的價錢可以得到足夠的利潤而不至於賠錢，在這次分析中，我們的目標是建立一個模型來預測二手車的預期售價，同時希望我們的模型能有足夠的解釋效力來說明影響二手車售價的可能因素有哪些。</description>
+      
+    </item>
+    
     <item>
       <title>繪製基於GGMap的公車路線圖</title>
       <link>http://localhost:1313/posts/r_ggmap/</link>
