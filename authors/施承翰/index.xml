@@ -2,58 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>施承翰 on Hans Website</title>
-    <link>http://localhost:1313/authors/%E6%96%BD%E6%89%BF%E7%BF%B0/</link>
+    <link>https://hans0803.github.io/authors/%E6%96%BD%E6%89%BF%E7%BF%B0/</link>
     <description>Recent content in 施承翰 on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/%E6%96%BD%E6%89%BF%E7%BF%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/authors/%E6%96%BD%E6%89%BF%E7%BF%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基於 F-value 的 Stepwise Model Selection</title>
+      <link>https://hans0803.github.io/posts/r_stepwise/</link>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/posts/r_stepwise/</guid>
+      <description>Question # 我們想要以Ｒ語言實作拒絕抽樣的模擬實作，在這裡我們會以蒙地卡羅的方法來將目標函數以覆蓋接受域的作法來實現它。</description>
+      
+    </item>
+    
+    <item>
+      <title>SQLZOO解答與討論（More JOIN）</title>
+      <link>https://hans0803.github.io/posts/sql_sqlzoo_morejoinans/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/posts/sql_sqlzoo_morejoinans/</guid>
+      <description>About Data # 這是SQLZOO學習紀錄系列的第二篇，這篇文章對應的章節是More JOIN operations。我會在下方說明我的解題過程。讓我們來看到這次所使用的資料表：</description>
+      
+    </item>
+    
+    <item>
+      <title>SQLZOO解答與討論（JOIN）</title>
+      <link>https://hans0803.github.io/posts/sql_-sqlzoo_joinans/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/posts/sql_-sqlzoo_joinans/</guid>
+      <description>About Data # 這裡是我在 SQLZOO這個網站的學習紀錄，這篇文章對應的章節是The Join operation。我會在下方說明我的解題過程。首先讓我們來看到這個章節所使用的資料表：</description>
+      
+    </item>
+    
     <item>
       <title>繪製基於GGMap的公車路線圖</title>
-      <link>http://localhost:1313/posts/r_ggmap/</link>
+      <link>https://hans0803.github.io/posts/r_ggmap/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/r_ggmap/</guid>
+      <guid>https://hans0803.github.io/posts/r_ggmap/</guid>
       <description>這段程式碼是使用 R 語言的 ggmap 和 ggforce 函式庫來繪製地圖並在地圖上標註指定位置的周圍半徑範圍內的圓形區域。以下是程式碼的主要步驟：</description>
       
     </item>
     
     <item>
       <title>藍莓產量預測報告</title>
-      <link>http://localhost:1313/projects/kaggle_s3e14/</link>
+      <link>https://hans0803.github.io/projects/kaggle_s3e14/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/kaggle_s3e14/</guid>
+      <guid>https://hans0803.github.io/projects/kaggle_s3e14/</guid>
       <description>藍莓因其豐富的營養成分常被譽為超級食物，因此引起了人們對其健康益處和烹飪多樣性的高度關注。在各種藍莓品種中，野生藍莓以其高含量的維生素、錳、花青素、類胡蘿蔔素、鉀、鋅和抗氧化劑而脫穎而出。值得注意的是，與栽培藍莓相比，野生藍莓的抗氧化劑含量顯著更高，使其成為農業市場上一種備受追捧的商品。</description>
       
     </item>
     
     <item>
       <title>MovieLens 100k 推薦系統</title>
-      <link>http://localhost:1313/projects/r_recommender/</link>
+      <link>https://hans0803.github.io/projects/r_recommender/</link>
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/r_recommender/</guid>
+      <guid>https://hans0803.github.io/projects/r_recommender/</guid>
       <description>欣賞電影與劇集是現代人眾多生活消遣之一，而如何推薦一部令使用者滿意的影集也成為各個應用程式在現代科技發達下的新戰場。我們生活中處處皆充滿了推薦系統的影子，舉凡購物網站、社群媒體、甚至連搜尋引擎均是如此，而我基於對這個領域的好奇心，加上在碩士論文研究上有考慮向推薦系統發展的緣故，這個學期我跨系修習了資工系的推薦系統課程，因此也就衍生出了這份期末報告，由於教授課程規劃的緣故，所有的報告統一均採用 MovieLens 100k 這筆資料，而這次的報告也在課程中拿到最好的成績。</description>
       
     </item>
     
     <item>
       <title>拒絕抽樣實作</title>
-      <link>http://localhost:1313/posts/r_rejection_sampling/</link>
+      <link>https://hans0803.github.io/posts/r_rejection_sampling/</link>
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/r_rejection_sampling/</guid>
+      <guid>https://hans0803.github.io/posts/r_rejection_sampling/</guid>
       <description>Question # 我們想要以Ｒ語言實作拒絕抽樣的模擬實作，在這裡我們會以蒙地卡羅的方法來將目標函數以覆蓋接受域的作法來實現它。</description>
       
     </item>
     
     <item>
       <title>多種積分函數實作</title>
-      <link>http://localhost:1313/posts/r_intergate/</link>
+      <link>https://hans0803.github.io/posts/r_intergate/</link>
       <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/r_intergate/</guid>
+      <guid>https://hans0803.github.io/posts/r_intergate/</guid>
       <description>這裏我們將使用黎曼積分法、梯形積分法、辛普森積分法及蒙地卡羅積分法來實作他，下面是他們分別簡單的介紹。</description>
       
     </item>

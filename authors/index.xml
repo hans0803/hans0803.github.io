@@ -2,28 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Hans Website</title>
-    <link>http://localhost:1313/authors/</link>
+    <link>https://hans0803.github.io/authors/</link>
     <description>Recent content in Authors on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cheng-Han Shih</title>
-      <link>http://localhost:1313/authors/cheng-han-shih/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/authors/cheng-han-shih/</guid>
-      <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>施承翰</title>
-      <link>http://localhost:1313/authors/%E6%96%BD%E6%89%BF%E7%BF%B0/</link>
-      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <link>https://hans0803.github.io/authors/%E6%96%BD%E6%89%BF%E7%BF%B0/</link>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/authors/%E6%96%BD%E6%89%BF%E7%BF%B0/</guid>
+      <guid>https://hans0803.github.io/authors/%E6%96%BD%E6%89%BF%E7%BF%B0/</guid>
       <description></description>
       
     </item>
