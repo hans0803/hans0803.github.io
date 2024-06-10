@@ -936,17 +936,6 @@
 </span></span></span><span class="line"><span class="cl"><span class="n">      cat(&#39;in:&#39;, in_width, &#39;/ out:&#39;, out_width, &#39;:&#39;, who_catch, &#39;(OUT) \n&#39;)
 </span></span></span><span class="line"><span class="cl"><span class="n">      who_out &lt;- who_catch
 </span></span></span><span class="line"><span class="cl"><span class="n">      
-</span></span></span><span class="line"><span class="cl"><span class="n">      if(who_in==who_out){
-</span></span></span><span class="line"><span class="cl"><span class="n">        break_count &lt;- break_count + 1
-</span></span></span><span class="line"><span class="cl"><span class="n">      }else{
-</span></span></span><span class="line"><span class="cl"><span class="n">        break_count &lt;- 0
-</span></span></span><span class="line"><span class="cl"><span class="n">      }
-</span></span></span><span class="line"><span class="cl"><span class="n">      if(break_count &gt; early_break_count){
-</span></span></span><span class="line"><span class="cl"><span class="n">        message_var &lt;- paste(&#34;Break warning by variable in=out&#34;)
-</span></span></span><span class="line"><span class="cl"><span class="n">        warning(message_var)
-</span></span></span><span class="line"><span class="cl"><span class="n">        break
-</span></span></span><span class="line"><span class="cl"><span class="n">      }
-</span></span></span><span class="line"><span class="cl"><span class="n">      
 </span></span></span><span class="line"><span class="cl"><span class="n">      # stepwise part start
 </span></span></span><span class="line"><span class="cl"><span class="n">      # check df_out variable &gt; 1
 </span></span></span><span class="line"><span class="cl"><span class="n">      if(out_width &gt; 1){
@@ -994,6 +983,17 @@
 </span></span><span class="line"><span class="cl">      <span class="p">}</span>
 </span></span><span class="line"><span class="cl">      <span class="nf">cat</span><span class="p">(</span><span class="s">&#39;in:&#39;</span><span class="p">,</span> <span class="n">in_width</span><span class="p">,</span> <span class="s">&#39;/ out:&#39;</span><span class="p">,</span> <span class="n">out_width</span><span class="p">,</span> <span class="s">&#39;:&#39;</span><span class="p">,</span> <span class="n">who_catch</span><span class="p">,</span> <span class="s">&#39;(IN) \n&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">      <span class="n">who_in</span> <span class="o">&lt;-</span> <span class="n">who_catch</span>
+</span></span><span class="line"><span class="cl">      
+</span></span><span class="line"><span class="cl">      <span class="kr">if</span><span class="p">(</span><span class="n">who_in</span><span class="o">==</span><span class="n">who_out</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="n">break_count</span> <span class="o">&lt;-</span> <span class="n">break_count</span> <span class="o">+</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span><span class="kr">else</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">break_count</span> <span class="o">&lt;-</span> <span class="m">0</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="kr">if</span><span class="p">(</span><span class="n">break_count</span> <span class="o">&gt;</span> <span class="n">early_break_count</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="n">message_var</span> <span class="o">&lt;-</span> <span class="nf">paste</span><span class="p">(</span><span class="s">&#34;Break warning by variable in=out&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="nf">warning</span><span class="p">(</span><span class="n">message_var</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">break</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
 </span></span><span class="line"><span class="cl">      
 </span></span><span class="line"><span class="cl">      <span class="c1"># stepwise part end</span>
 </span></span><span class="line"><span class="cl">      
