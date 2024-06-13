@@ -752,7 +752,7 @@
 <p>若我們只是需要將新數據繼續寫入同一個資料表，那麼我們只需要鎖定位址後，繼續使用 <code>insert</code> 函數寫入即可，例如我們可以再執行一次下面的寫入操作，</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">new_data</span> <span class="o">&lt;-</span> <span class="nf">data.frame</span><span class="p">(</span><span class="n">Sepal.Length</span> <span class="o">=</span> <span class="m">5.0</span><span class="p">,</span> <span class="n">Sepal.Width</span> <span class="o">=</span> <span class="m">3.6</span><span class="p">,</span> <span class="n">Petal.Length</span> <span class="o">=</span> <span class="m">1.4</span><span class="p">,</span> <span class="n">Petal.Width</span> <span class="o">=</span> <span class="m">0.2</span><span class="p">,</span> <span class="n">Species</span> <span class="o">=</span> <span class="s">&#34;setosa&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">target</span><span class="o">$</span><span class="nf">insert</span><span class="p">(</span><span class="n">new_data</span><span class="p">)</span>
-</span></span></code></pre></div><p>完成寫入後，我們將得到一個在加入新資料後，資料總筆數為151筆的資料表，同時我們可以用 <code>nrow</code> 函數確認資料的筆數確實有300筆。</p>
+</span></span></code></pre></div><p>完成寫入後，我們將得到一個在加入新資料後資料總筆數為151筆的資料表，同時我們可以用 <code>nrow</code> 函數確認資料的筆數確實有151筆。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">nrow</span><span class="p">(</span><span class="n">iris_data</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># [1] 151</span>

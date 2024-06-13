@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Analysis on Hans Website</title>
-    <link>https://hans0803.github.io/categories/data-analysis/</link>
-    <description>Recent content in Data Analysis on Hans Website</description>
+    <title>Analysis on Hans Website</title>
+    <link>https://hans0803.github.io/categories/analysis/</link>
+    <description>Recent content in Analysis on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/categories/data-analysis/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BGG 桌遊地圖</title>
-      <link>https://hans0803.github.io/projects/master_bgg/</link>
-      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://hans0803.github.io/projects/master_bgg/</guid>
-      <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/categories/analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>藍莓產量預測報告</title>
       <link>https://hans0803.github.io/projects/kaggle_s3e14/</link>

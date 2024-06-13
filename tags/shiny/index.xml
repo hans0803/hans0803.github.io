@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shiny on Hans Website</title>
+    <link>https://hans0803.github.io/tags/shiny/</link>
+    <description>Recent content in Shiny on Hans Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <copyright>期許自己能在資料科學的路上走得更遠</copyright>
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BGG 桌遊地圖</title>
+      <link>https://hans0803.github.io/projects/master_bgg/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/projects/master_bgg/</guid>
+      <description>桌上遊戲是近年來迅速成長的產業之一，由於近幾年疫情的影響，人們參與大型戶外活動的意願相較疫情前有所降低，相較於在外接觸陌生人，這時待在家中或是與熟識的少數朋友小聚成為許多人的選擇，進而意外促進了許多產業的蓬勃發展，而桌遊便是其中之一。在這篇文章中，我會簡單的介紹我碩士論文的視覺化結果，若是需要更詳細的資訊，歡迎查閱論文的內容或是與我聯繫。</description>
+      
+    </item>
+    
+  </channel>
+</rss>
