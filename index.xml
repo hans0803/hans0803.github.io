@@ -14,7 +14,7 @@
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/sql_mongodbuse/</guid>
-      <description>接續我們前面所建構的 MongoDB Server，我在本篇文章中將介紹如何利用Ｒ連線至 MongoDB，並且透過實際的程式演示來進行 MongoDB 的連線與執行基本的 CRUD（創建、讀取、更新、刪除）操作。</description>
+      <description></description>
       
     </item>
     
@@ -24,7 +24,7 @@
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/sql_mongodb/</guid>
-      <description>MongoDB 是一種 NoSQL 資料庫，以其高性能、靈活的資料模型和良好的可擴展性而廣受歡迎。與傳統的關聯式資料庫不同，MongoDB 使用類似 JSON 格式的文件來存儲資料，使得它特別適合處理多變且非結構化的數據。在現代應用程序中，尤其是需要處理大數據和實時分析的場景下，MongoDB 提供了優異的解決方案。</description>
+      <description></description>
       
     </item>
     
@@ -34,7 +34,7 @@
       <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/r_stepwise/</guid>
-      <description>Introduction # 這篇文章是修改我碩一時所製作的 R 函數，當時我們的目標是想要以Ｒ語言實作基於 F-value 的 Forward 及 Backward Stepwise Model Selection，由於近期在使用上套用至部分資料會跑出錯誤訊息，因此在這裏做簡單的版本翻修，並新增進了設置停止區間的參數及支援顯示當前進度的訊息，接下來我會簡單講解這個函數的參數及使用方法，更詳細的資訊可以參考我的Github上的Ｒ package 連結。</description>
+      <description></description>
       
     </item>
     
@@ -44,7 +44,7 @@
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/sql_sqlzoo_morejoinans/</guid>
-      <description>About Data # 這是SQLZOO學習紀錄系列的第二篇，這篇文章對應的章節是More JOIN operations。我會在下方說明我的解題過程。讓我們來看到這次所使用的資料表：</description>
+      <description></description>
       
     </item>
     
@@ -54,7 +54,7 @@
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/sql_-sqlzoo_joinans/</guid>
-      <description>About Data # 這裡是我在 SQLZOO這個網站的學習紀錄，這篇文章對應的章節是The Join operation。我會在下方說明我的解題過程。首先讓我們來看到這個章節所使用的資料表：</description>
+      <description></description>
       
     </item>
     
@@ -64,7 +64,7 @@
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/about/</guid>
-      <description>自我介紹 # 我是施承翰，我於 2023 年 6 月取得國立東華大學應用數學系的統計碩士學位，並於 2024 年的 3 月底正式服完義務兵役。</description>
+      <description></description>
       
     </item>
     
@@ -74,7 +74,7 @@
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/r_ggmap/</guid>
-      <description>這段程式碼是使用 R 語言的 ggmap 和 ggforce 函式庫來繪製地圖並在地圖上標註指定位置的周圍半徑範圍內的圓形區域。以下是程式碼的主要步驟：</description>
+      <description></description>
       
     </item>
     
@@ -84,7 +84,7 @@
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/projects/master_bgg/</guid>
-      <description>桌上遊戲是近年來迅速成長的產業之一，由於近幾年疫情的影響，人們參與大型戶外活動的意願相較疫情前有所降低，相較於在外接觸陌生人，這時待在家中或是與熟識的少數朋友小聚成為許多人的選擇，進而意外促進了許多產業的蓬勃發展，而桌遊便是其中之一。</description>
+      <description></description>
       
     </item>
     
@@ -94,7 +94,7 @@
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/projects/kaggle_s3e14/</guid>
-      <description>藍莓因其豐富的營養成分常被譽為超級食物，因此引起了人們對其健康益處和烹飪多樣性的高度關注。在各種藍莓品種中，野生藍莓以其高含量的維生素、錳、花青素、類胡蘿蔔素、鉀、鋅和抗氧化劑而脫穎而出。值得注意的是，與栽培藍莓相比，野生藍莓的抗氧化劑含量顯著更高，使其成為農業市場上一種備受追捧的商品。</description>
+      <description></description>
       
     </item>
     
@@ -104,7 +104,7 @@
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/projects/r_recommender/</guid>
-      <description>欣賞電影與劇集是現代人眾多生活消遣之一，而如何推薦一部令使用者滿意的影集也成為各個應用程式在現代科技發達下的新戰場。我們生活中處處皆充滿了推薦系統的影子，舉凡購物網站、社群媒體、甚至連搜尋引擎均是如此，而我基於對這個領域的好奇心，加上在碩士論文研究上有考慮向推薦系統發展的緣故，這個學期我跨系修習了資工系的推薦系統課程，因此也就衍生出了這份期末報告，由於教授課程規劃的緣故，所有的報告統一均採用 MovieLens 100k 這筆資料，而這次的報告也在課程中拿到最好的成績。</description>
+      <description></description>
       
     </item>
     
@@ -114,7 +114,7 @@
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/r_rejection_sampling/</guid>
-      <description>Question # 我們想要以Ｒ語言實作拒絕抽樣的模擬實作，在這裡我們會以蒙地卡羅的方法來將目標函數以覆蓋接受域的作法來實現它。</description>
+      <description></description>
       
     </item>
     
@@ -124,7 +124,7 @@
       <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/r_intergate/</guid>
-      <description>這裏我們將使用黎曼積分法、梯形積分法、辛普森積分法及蒙地卡羅積分法來實作他，下面是他們分別簡單的介紹。</description>
+      <description></description>
       
     </item>
     

@@ -66,7 +66,7 @@
   <meta property="og:url" content="https://hans0803.github.io/posts/r_stepwise/">
   <meta property="og:site_name" content="Hans Website">
   <meta property="og:title" content="基於 F-value 的 Stepwise Model Selection">
-  <meta property="og:description" content="Introduction # 這篇文章是修改我碩一時所製作的 R 函數，當時我們的目標是想要以Ｒ語言實作基於 F-value 的 Forward 及 Backward Stepwise Model Selection，由於近期在使用上套用至部分資料會跑出錯誤訊息，因此在這裏做簡單的版本翻修，並新增進了設置停止區間的參數及支援顯示當前進度的訊息，接下來我會簡單講解這個函數的參數及使用方法，更詳細的資訊可以參考我的Github上的Ｒ package 連結。">
+  <meta property="og:description" content="My awesome website">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -79,7 +79,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="基於 F-value 的 Stepwise Model Selection">
-  <meta name="twitter:description" content="Introduction # 這篇文章是修改我碩一時所製作的 R 函數，當時我們的目標是想要以Ｒ語言實作基於 F-value 的 Forward 及 Backward Stepwise Model Selection，由於近期在使用上套用至部分資料會跑出錯誤訊息，因此在這裏做簡單的版本翻修，並新增進了設置停止區間的參數及支援顯示當前進度的訊息，接下來我會簡單講解這個函數的參數及使用方法，更詳細的資訊可以參考我的Github上的Ｒ package 連結。">
+  <meta name="twitter:description" content="My awesome website">
 
   
   <script type="application/ld+json">
@@ -90,7 +90,7 @@
     "name": "基於 F-value 的 Stepwise Model Selection",
     "headline": "基於 F-value 的 Stepwise Model Selection",
     
-    "abstract": "Introduction # 這篇文章是修改我碩一時所製作的 R 函數，當時我們的目標是想要以Ｒ語言實作基於 F-value 的 Forward 及 Backward Stepwise Model Selection，由於近期在使用上套用至部分資料會跑出錯誤訊息，因此在這裏做簡單的版本翻修，並新增進了設置停止區間的參數及支援顯示當前進度的訊息，接下來我會簡單講解這個函數的參數及使用方法，更詳細的資訊可以參考我的Github上的Ｒ package 連結。",
+    
     "inLanguage": "zh-tw",
     "url" : "http:\/\/localhost:1313\/posts\/r_stepwise\/",
     "author" : {
@@ -106,7 +106,7 @@
     "keywords": ["R語言程式","Forward Stepwise","Backward Stepwise"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1253"
+    "wordCount": "1761"
   }]
   </script>
 
@@ -484,7 +484,11 @@
 
 
 
+  
 
+
+
+  
 
 
 
@@ -503,7 +507,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-09 00:00:00 &#43;0000 UTC">9 June 2024</time><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-06-09 00:00:00 &#43;0000 UTC">9 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1761 字</span><span class="px-2 text-primary-500">&middot;</span><span title="預計閱讀時間">4 分鐘</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
@@ -538,6 +542,14 @@
 
 
     </div>
+
+    
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400">
+      
+      
+      8 分鐘
+    </div>
+    
 
     
     
