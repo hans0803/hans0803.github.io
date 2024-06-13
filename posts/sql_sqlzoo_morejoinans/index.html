@@ -105,7 +105,7 @@
     "keywords": ["SQLZOO"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "414"
+    "wordCount": "420"
   }]
   </script>
 
@@ -877,7 +877,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">yr</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">HAVING</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="n">title</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></div><p><strong>Question 12</strong></p>
-<p>在這題中我原本使用title去做搜尋，但似乎有一部名為 &ldquo;Little Miss Marker twice&rdquo; 的電影有兩位主演，導致若是以名字去做搜尋會得到兩份結果，導致在網站中答案顯示不正確，但我覺得題目中並沒有提到當電影有兩位主演時只能顯示一位，因此我在這裡附上兩種答案，第一份是符合網站要求的標準答案，而第二份我同時顯示了ord來確認在這部電影中真的有兩位主演。</p>
+<p>在這題中我原本使用 title 去做搜尋，但似乎有一部名為 &ldquo;Little Miss Marker twice&rdquo; 的電影有兩位主演，導致若是以名字去做搜尋會得到兩份結果，導致在網站中答案顯示不正確，但我覺得題目中並沒有提到當電影有兩位主演時只能顯示一位，因此我在這裡附上兩種答案，第一份是符合網站要求的標準答案，而第二份我同時顯示了 ord 來確認在這部電影中真的有兩位主演。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="c1">-- 標準答案
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">SELECT</span><span class="w"> </span><span class="n">title</span><span class="p">,</span><span class="w"> </span><span class="n">name</span><span class="w"> 
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">casting</span><span class="w"> 
@@ -920,7 +920,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">movieid</span><span class="p">,</span><span class="w"> </span><span class="n">title</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="n">actorid</span><span class="p">)</span><span class="w"> </span><span class="k">DESC</span><span class="p">,</span><span class="w"> </span><span class="n">title</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></div><p><strong>Question 15</strong></p>
-<p>在最後一題中，我們需要找出與&rsquo;Art Garfunkel&rsquo;一起出演過電影的演員，在這裡我們需要由電影搜尋哪些演員曾在他出演過的電影中出現，同時我們需要加上一個不能為他本人的條件確保輸出的結果正確。</p>
+<p>在最後一題中，我們需要找出與 &ldquo;Art Garfunkel&rdquo; 一起出演過電影的演員，在這裡我們需要由電影搜尋哪些演員曾在他出演過的電影中出現，同時我們需要加上一個不能為他本人的條件確保輸出的結果正確。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="n">name</span><span class="w"> 
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">FROM</span><span class="w"> </span><span class="n">casting</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">JOIN</span><span class="w"> </span><span class="n">actor</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">actorid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">actor</span><span class="p">.</span><span class="n">id</span><span class="w">

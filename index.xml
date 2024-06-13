@@ -34,7 +34,7 @@
       <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/r_stepwise/</guid>
-      <description>Introduction # 這篇文章是修改我碩一時所製作的Ｒ函數，當時我們的目標是想要以Ｒ語言實作基於 F-value 的 Forward 及 Backward Stepwise Model Selection，由於近期在使用上套用至部分資料會跑出錯誤訊息，因此在這裏做簡單的版本翻修，並新增進了設置停止區間的參數及支援顯示當前進度的訊息，接下來我會簡單講解這個函數的參數及使用方法，更詳細的資訊可以參考我的Github上的Ｒ package 連結。</description>
+      <description>Introduction # 這篇文章是修改我碩一時所製作的 R 函數，當時我們的目標是想要以Ｒ語言實作基於 F-value 的 Forward 及 Backward Stepwise Model Selection，由於近期在使用上套用至部分資料會跑出錯誤訊息，因此在這裏做簡單的版本翻修，並新增進了設置停止區間的參數及支援顯示當前進度的訊息，接下來我會簡單講解這個函數的參數及使用方法，更詳細的資訊可以參考我的Github上的Ｒ package 連結。</description>
       
     </item>
     
@@ -64,7 +64,7 @@
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/about/</guid>
-      <description>自我介紹 # 我是施承翰，我於2023年6月取得國立東華大學應用數學系的統計碩士學位，並於2024年的3月底正式服完義務兵役。</description>
+      <description>自我介紹 # 我是施承翰，我於 2023 年 6 月取得國立東華大學應用數學系的統計碩士學位，並於 2024 年的 3 月底正式服完義務兵役。</description>
       
     </item>
     
