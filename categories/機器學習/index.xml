@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/categories/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/categories/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>二手汽車售價預測及模型解釋</title>
+      <link>https://hans0803.github.io/projects/r_toyota_sell/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/projects/r_toyota_sell/</guid>
+      <description>在現代社會中，汽車不論是通勤或是旅遊都是人們的好夥伴，但一台車隨著里程與車齡的增加，難免會因機件老化或故障而產生問題，而這時選購一台新車或許是值得考慮的選項之一，但當我們決定購入新車，舊有車輛的處理方式成了人們這時時常思考的問題，不論是選擇以舊換新或是交由二手車商轉售都是十分熱門的選擇。</description>
+      
+    </item>
+    
     <item>
       <title>藍莓產量預測報告</title>
       <link>https://hans0803.github.io/projects/kaggle_s3e14/</link>

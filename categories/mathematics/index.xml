@@ -6,15 +6,35 @@
     <description>Recent content in Mathematics on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/categories/mathematics/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>期許自己能在資料科學的路上走得更遠</copyright>
+    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/categories/mathematics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Implementation of Rejection Sampling Methods</title>
+      <title>基於 F-value 的 Stepwise Model Selection</title>
+      <link>https://hans0803.github.io/posts/r_stepwise/</link>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/posts/r_stepwise/</guid>
+      <description>Introduction # 這篇文章是修改我碩一時所製作的Ｒ函數，當時我們的目標是想要以Ｒ語言實作基於 F-value 的 Forward 及 Backward Stepwise Model Selection，由於近期在使用上套用至部分資料會跑出錯誤訊息，因此在這裏做簡單的版本翻修，並新增進了設置停止區間的參數及支援顯示當前進度的訊息，接下來我會簡單講解這個函數的參數及使用方法，更詳細的資訊可以參考我的Github上的Ｒ package 連結。</description>
+      
+    </item>
+    
+    <item>
+      <title>拒絕抽樣實作</title>
       <link>https://hans0803.github.io/posts/r_rejection_sampling/</link>
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/r_rejection_sampling/</guid>
-      <description>Firstly, we need to define a target function f and specify a generation range [a, b].</description>
+      <description>Question # 我們想要以Ｒ語言實作拒絕抽樣的模擬實作，在這裡我們會以蒙地卡羅的方法來將目標函數以覆蓋接受域的作法來實現它。</description>
+      
+    </item>
+    
+    <item>
+      <title>多種積分函數實作</title>
+      <link>https://hans0803.github.io/posts/r_intergate/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/posts/r_intergate/</guid>
+      <description>這裏我們將使用黎曼積分法、梯形積分法、辛普森積分法及蒙地卡羅積分法來實作他，下面是他們分別簡單的介紹。</description>
       
     </item>
     

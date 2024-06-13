@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何使用 R 處理 MongoDB 中的數據</title>
+      <link>https://hans0803.github.io/posts/sql_mongodbuse/</link>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/posts/sql_mongodbuse/</guid>
+      <description>接續我們前面所建構的 MongoDB Server，我在本篇文章中將介紹如何利用Ｒ連線至 MongoDB，並且透過實際的程式演示來進行 MongoDB 的連線與執行基本的 CRUD（創建、讀取、更新、刪除）操作。</description>
+      
+    </item>
+    
+    <item>
+      <title>如何在 Mac 上部署 MongoDB Server</title>
+      <link>https://hans0803.github.io/posts/sql_mongodb/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/posts/sql_mongodb/</guid>
+      <description>MongoDB 是一種 NoSQL 資料庫，以其高性能、靈活的資料模型和良好的可擴展性而廣受歡迎。與傳統的關聯式資料庫不同，MongoDB 使用類似 JSON 格式的文件來存儲資料，使得它特別適合處理多變且非結構化的數據。在現代應用程序中，尤其是需要處理大數據和實時分析的場景下，MongoDB 提供了優異的解決方案。</description>
+      
+    </item>
+    
     <item>
       <title>基於 F-value 的 Stepwise Model Selection</title>
       <link>https://hans0803.github.io/posts/r_stepwise/</link>
