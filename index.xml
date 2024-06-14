@@ -7,13 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Thu, 13 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何使用 Python 處理 MongoDB 中的數據</title>
+      <link>https://hans0803.github.io/posts/sql_mongodb_py/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/posts/sql_mongodb_py/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>如何使用 R 處理 MongoDB 中的數據</title>
-      <link>https://hans0803.github.io/posts/sql_mongodbuse/</link>
+      <link>https://hans0803.github.io/posts/sql_mongodb_r/</link>
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://hans0803.github.io/posts/sql_mongodbuse/</guid>
+      <guid>https://hans0803.github.io/posts/sql_mongodb_r/</guid>
       <description></description>
       
     </item>
