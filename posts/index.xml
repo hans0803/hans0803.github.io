@@ -64,17 +64,17 @@
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/sql_-sqlzoo_joinans/</guid>
-      <description>SQLZOO JOIN 章節習題實作及詳解</description>
+      <description>在 SQLZOO JOIN 章節練習時的習題實作及詳解</description>
       
     </item>
     
     <item>
-      <title>繪製基於GGMap的公車路線圖</title>
+      <title>繪製基於 GGMap 的公車路線圖</title>
       <link>https://hans0803.github.io/posts/r_ggmap/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/r_ggmap/</guid>
-      <description>使用 R 語言調用 Google Map Api 來繪製地圖</description>
+      <description>使用 R 語言調用 Google Map Api 來繪製附加公車站牌資訊的地圖</description>
       
     </item>
     
