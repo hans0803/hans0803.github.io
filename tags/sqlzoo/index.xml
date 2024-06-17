@@ -6,7 +6,7 @@
     <description>Recent content in SQLZOO on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <copyright>期許自己能在資料科學的路上走得更遠</copyright>
+    
     <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/tags/sqlzoo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQLZOO解答與討論（More JOIN）</title>
@@ -14,7 +14,7 @@
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/sql_sqlzoo_morejoinans/</guid>
-      <description></description>
+      <description>在 SQLZOO More JOIN 章節練習時的習題實作及詳解</description>
       
     </item>
     
@@ -24,7 +24,7 @@
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/posts/sql_-sqlzoo_joinans/</guid>
-      <description></description>
+      <description>SQLZOO JOIN 章節習題實作及詳解</description>
       
     </item>
     
