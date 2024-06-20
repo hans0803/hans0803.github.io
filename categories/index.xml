@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R</title>
+      <link>https://hans0803.github.io/categories/r/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/categories/r/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Text Mining</title>
+      <link>https://hans0803.github.io/categories/text-mining/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hans0803.github.io/categories/text-mining/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>NoSQL</title>
       <link>https://hans0803.github.io/categories/nosql/</link>
@@ -24,16 +44,6 @@
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/categories/python/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://hans0803.github.io/categories/r/</link>
-      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://hans0803.github.io/categories/r/</guid>
       <description></description>
       
     </item>
@@ -64,16 +74,6 @@
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://hans0803.github.io/categories/analysis/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Text Mining</title>
-      <link>https://hans0803.github.io/categories/text-mining/</link>
-      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://hans0803.github.io/categories/text-mining/</guid>
       <description></description>
       
     </item>

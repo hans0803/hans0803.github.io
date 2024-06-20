@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>藍莓產量預測報告 &middot; Hans Website</title>
-  <meta name="title" content="藍莓產量預測報告 &middot; Hans Website" />
+  <title>使用正則表達式在 R 語言中挖掘文本資訊 &middot; Hans Website</title>
+  <meta name="title" content="使用正則表達式在 R 語言中挖掘文本資訊 &middot; Hans Website" />
   
-  <meta name="description" content="利用從 Kaggle 競賽中提供的野生藍莓產量預測數據，開發多個基於不同機器學習方法，用於估算野生藍莓產量的預測模型" />
-  <meta name="keywords" content="XGBoost, LightGBM, Random Forest, Linear Regression, " />
+  <meta name="description" content="關於正則表達式在資料處理中的用法及示例" />
+  <meta name="keywords" content="Regular Expression, " />
   
   
-  <link rel="canonical" href="https://hans0803.github.io/projects/kaggle_s3e14/" />
+  <link rel="canonical" href="https://hans0803.github.io/posts/code_regex/" />
   
   
   
@@ -63,51 +63,48 @@
   
   
   
-  <meta property="og:url" content="https://hans0803.github.io/projects/kaggle_s3e14/">
+  <meta property="og:url" content="https://hans0803.github.io/posts/code_regex/">
   <meta property="og:site_name" content="Hans Website">
-  <meta property="og:title" content="藍莓產量預測報告">
-  <meta property="og:description" content="利用從 Kaggle 競賽中提供的野生藍莓產量預測數據，開發多個基於不同機器學習方法，用於估算野生藍莓產量的預測模型">
+  <meta property="og:title" content="使用正則表達式在 R 語言中挖掘文本資訊">
+  <meta property="og:description" content="關於正則表達式在資料處理中的用法及示例">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="projects">
-    <meta property="article:published_time" content="2023-06-05T00:00:00+00:00">
-    <meta property="article:modified_time" content="2023-06-05T00:00:00+00:00">
-    <meta property="article:tag" content="XGBoost">
-    <meta property="article:tag" content="LightGBM">
-    <meta property="article:tag" content="Random Forest">
-    <meta property="article:tag" content="Linear Regression">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-06-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-06-19T00:00:00+00:00">
+    <meta property="article:tag" content="Regular Expression">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="藍莓產量預測報告">
-  <meta name="twitter:description" content="利用從 Kaggle 競賽中提供的野生藍莓產量預測數據，開發多個基於不同機器學習方法，用於估算野生藍莓產量的預測模型">
+  <meta name="twitter:title" content="使用正則表達式在 R 語言中挖掘文本資訊">
+  <meta name="twitter:description" content="關於正則表達式在資料處理中的用法及示例">
 
   
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Projects",
-    "name": "藍莓產量預測報告",
-    "headline": "藍莓產量預測報告",
+    "articleSection": "Posts",
+    "name": "使用正則表達式在 R 語言中挖掘文本資訊",
+    "headline": "使用正則表達式在 R 語言中挖掘文本資訊",
     
-    "abstract": "利用從 Kaggle 競賽中提供的野生藍莓產量預測數據，開發多個基於不同機器學習方法，用於估算野生藍莓產量的預測模型",
+    "abstract": "關於正則表達式在資料處理中的用法及示例",
     "inLanguage": "zh-tw",
-    "url" : "http:\/\/localhost:1313\/projects\/kaggle_s3e14\/",
+    "url" : "http:\/\/localhost:1313\/posts\/code_regex\/",
     "author" : {
       "@type": "Person",
       "name": "施承翰"
     },
-    "copyrightYear": "2023",
-    "dateCreated": "2023-06-05T00:00:00\u002b00:00",
-    "datePublished": "2023-06-05T00:00:00\u002b00:00",
+    "copyrightYear": "2024",
+    "dateCreated": "2024-06-19T00:00:00\u002b00:00",
+    "datePublished": "2024-06-19T00:00:00\u002b00:00",
     
-    "dateModified": "2023-06-05T00:00:00\u002b00:00",
+    "dateModified": "2024-06-19T00:00:00\u002b00:00",
     
-    "keywords": ["XGBoost","LightGBM","Random Forest","Linear Regression"],
+    "keywords": ["Regular Expression"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "4554"
+    "wordCount": "1809"
   }]
   </script>
 
@@ -533,7 +530,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      藍莓產量預測報告
+      使用正則表達式在 R 語言中挖掘文本資訊
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -578,9 +575,9 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-06-05 00:00:00 &#43;0000 UTC">5 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>4554 字</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-06-19 00:00:00 &#43;0000 UTC">19 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1809 字</span><span class="px-2 text-primary-500">&middot;</span>
 
-<span title="預計閱讀時間">22 分鐘</span>
+<span title="預計閱讀時間">9 分鐘</span>
   
 
   
@@ -606,26 +603,10 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/analysis/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/text-mining/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Analysis
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/feature-engineering/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Feature Engineering
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/machine-learning/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Machine Learning
+    Text Mining
   </span>
 </span>
   </span>
@@ -638,34 +619,10 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/xgboost/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/regular-expression/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    XGBoost
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/lightgbm/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    LightGBM
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/random-forest/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Random Forest
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/linear-regression/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Linear Regression
+    Regular Expression
   </span>
 </span>
   </span>
@@ -751,26 +708,18 @@
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#induction">Induction</a></li>
-    <li><a href="#exploratory-data-analysis-eda">Exploratory Data Analysis, EDA</a>
+    <li><a href="#基本搜索">基本搜索</a>
       <ul>
-        <li><a href="#correlation">Correlation</a></li>
-        <li><a href="#野生藍莓-vs-人工種植藍莓">野生藍莓 vs 人工種植藍莓</a></li>
-        <li><a href="#生長環境對藍莓的影響">生長環境對藍莓的影響</a></li>
+        <li><a href="#heading"><code>?</code></a></li>
+        <li><a href="#heading-1"><code>*</code></a></li>
+        <li><a href="#heading-2"><code>+</code></a></li>
+        <li><a href="#heading-3"><code>()</code></a></li>
+        <li><a href="#heading-4"><code>{}</code></a></li>
+        <li><a href="#heading-5"><code>[]</code></a></li>
+        <li><a href="#heading-6"><code>^</code></a></li>
       </ul>
     </li>
-    <li><a href="#method">Method</a>
-      <ul>
-        <li><a href="#k-fold-cross-validation">K-Fold Cross Validation</a></li>
-        <li><a href="#compare-models">Compare Models</a></li>
-        <li><a href="#這是一個被設計好的問題">這是一個被設計好的問題？</a></li>
-        <li><a href="#linear-regression">Linear Regression</a></li>
-        <li><a href="#random-forest">Random Forest</a></li>
-        <li><a href="#xgboost">XGBoost</a></li>
-        <li><a href="#lightgbm">LightGBM</a></li>
-      </ul>
-    </li>
-    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#元字符">元字符</a></li>
   </ul>
 </nav>
   </div>
@@ -784,26 +733,18 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#induction">Induction</a></li>
-    <li><a href="#exploratory-data-analysis-eda">Exploratory Data Analysis, EDA</a>
+    <li><a href="#基本搜索">基本搜索</a>
       <ul>
-        <li><a href="#correlation">Correlation</a></li>
-        <li><a href="#野生藍莓-vs-人工種植藍莓">野生藍莓 vs 人工種植藍莓</a></li>
-        <li><a href="#生長環境對藍莓的影響">生長環境對藍莓的影響</a></li>
+        <li><a href="#heading"><code>?</code></a></li>
+        <li><a href="#heading-1"><code>*</code></a></li>
+        <li><a href="#heading-2"><code>+</code></a></li>
+        <li><a href="#heading-3"><code>()</code></a></li>
+        <li><a href="#heading-4"><code>{}</code></a></li>
+        <li><a href="#heading-5"><code>[]</code></a></li>
+        <li><a href="#heading-6"><code>^</code></a></li>
       </ul>
     </li>
-    <li><a href="#method">Method</a>
-      <ul>
-        <li><a href="#k-fold-cross-validation">K-Fold Cross Validation</a></li>
-        <li><a href="#compare-models">Compare Models</a></li>
-        <li><a href="#這是一個被設計好的問題">這是一個被設計好的問題？</a></li>
-        <li><a href="#linear-regression">Linear Regression</a></li>
-        <li><a href="#random-forest">Random Forest</a></li>
-        <li><a href="#xgboost">XGBoost</a></li>
-        <li><a href="#lightgbm">LightGBM</a></li>
-      </ul>
-    </li>
-    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#元字符">元字符</a></li>
   </ul>
 </nav>
   </div>
@@ -856,288 +797,301 @@
       <div class="min-w-0 min-h-0 max-w-fit">
         
         
+<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5" >
+    
+    <summary
+        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
+        Regex - 本文屬於一個選集。
+    </summary>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        § : 本文
+    </div>
+    
+    
+
+
+</details>
+
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>
-    <figure>
-      <img class="my-0 rounded-md" loading="lazy" src="/images/Kaggle_s3e14/bluebarry.png#plt_center" alt="" />
-      
-    </figure>
-</p>
-<p>藍莓因其豐富的營養成分常被譽為超級食物，因此引起了人們對其健康益處和烹飪多樣性的高度關注。在各種藍莓品種中，野生藍莓以其高含量的維生素、錳、花青素、類胡蘿蔔素、鉀、鋅和抗氧化劑而脫穎而出。值得注意的是，與栽培藍莓相比，野生藍莓的抗氧化劑含量顯著更高，使其成為農業市場上一種備受追捧的商品。</p>
-<p>為了最大程度地提高野生藍莓的產量，研究人員和種植者都在尋求創新的方法來預測和優化生產成果。其中一種途徑是利用預測建模技術，基於從田間觀察中得出的一系列豐富的預測變量來預測野生藍莓的產量。這些變量涵蓋了影響野生藍莓生長和生產力的各種因素。</p>
+          <p>正則表達式（Regular Expressions，簡稱 regex）是一種強大的文本處理工具，允許開發者以高度靈活和效率的方式搜索、替換、分析和操作文本數據。在資料科學領域，正則表達式提供了一種解析大規模數據集、清洗數據和提取有價值信息的有效方法。</p>
+<p>正則表達式是用於描述字符串匹配模式的語言。它們主要用於字符串搜尋和替換操作，支持一些特定的語法規則，讓用戶能夠定義一個或多個匹配的規則。在資料科學中，正則表達式尤其重要，它們可以快速地從大量的文本數據中提取有用的信息，進而被廣泛地運用在許多程式語言中，並在不同的地方扮演著不同的角色，例如從日誌文件中提取日期和時間信息，或從社交媒體數據中識別和提取特定的話題標籤，甚至我們日常所使用的密碼設置時的大小寫識別等。若是沒有程式編譯環境，也可以透過<a href="https://regex101.com" target="_blank">regex101</a>這個網站來進行正則表達式的練習。</p>
+<p>本篇文章會簡單說明關於正則表達式的語法及應用，並且再以 R 做簡單的程式上使用的舉例。</p>
 
 
-<h2 class="relative group">Induction 
-    <div id="induction" class="anchor"></div>
+<h2 class="relative group">基本搜索 
+    <div id="%E5%9F%BA%E6%9C%AC%E6%90%9C%E7%B4%A2" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#induction" aria-label="定位點">#</a>
+            style="text-decoration-line: none !important;" href="#%E5%9F%BA%E6%9C%AC%E6%90%9C%E7%B4%A2" aria-label="定位點">#</a>
     </span>        
     
 </h2>
-<p>在這項分析中，我們旨在利用從Kaggle競賽中提供的野生藍莓產量預測數據集中獲取的數據，開發一個用於估算野生藍莓產量的預測模型。我們的分析將集中於整合各種預測變量，包括環境因素、授粉者密度和植物特徵，以建立一個穩健的預測模型。</p>
-<p>讓我們看看數據集中有哪些變量。</p>
-<ul>
-<li>
-<p>Clonesize ( m2 ) : 每平方公尺中有多少比例的藍莓是經由無性生殖所培育出來的。</p>
-</li>
-<li>
-<p>Honeybee ( m2 / min ) : 田間每平方公尺蜜蜂的密度。</p>
-</li>
-<li>
-<p>Bumbles ( m2 / min ) : 田間每平方公尺大黃蜂的密度。</p>
-</li>
-<li>
-<p>Andrena ( m2 / min ) : 田間每平方公尺安德瑞那蜂的密度。</p>
-</li>
-<li>
-<p>Osmia ( m2 / min ) : 田間每平方公尺奧斯米亞蜂的密度。</p>
-</li>
-<li>
-<p>Max.U.T ( Max of Upper TRange ◦F ) : 在整個開花季節期間，每日上限氣溫的最高紀錄。</p>
-</li>
-<li>
-<p>Min.U.T ( Min of Upper TRange ◦F ) : 在整個開花季節期間，每日上限氣溫的最低紀錄。</p>
-</li>
-<li>
-<p>A.U.T ( Average of Upper TRange ◦F ) : 在整個開花季節期間，每日上限氣溫的平均值。</p>
-</li>
-<li>
-<p>Max.L.T ( Max of Lower TRange ◦F ) : 在整個開花季節期間，每日下限氣溫的最高紀錄。</p>
-</li>
-<li>
-<p>Min.L.T ( Min of Lower TRange ◦F ) : 在整個開花季節期間，每日下限氣溫的最低紀錄。</p>
-</li>
-<li>
-<p>A.L.T ( Average of Lower TRange ◦F ) : 在整個開花季節期間，每日下限氣溫的平均值。</p>
-</li>
-<li>
-<p>R.D ( Raining Days) : 在整個開花季節期間，降雨量大於零的總天數。</p>
-</li>
-<li>
-<p>A.R.D ( Average Raining Days) : 在整個開花季節期間，降雨天數的平均值。</p>
-</li>
-<li>
-<p>Fruitset : 最終結果形成果實的花朵比例。</p>
-</li>
-<li>
-<p>Fruitmass ( g ) : 單個藍莓果實的平均質量（克）。</p>
-</li>
-<li>
-<p>Seeds :  平均每個藍莓果實中發現的種子總數。</p>
-</li>
-</ul>
-<p><strong>反應變量 : Yield（產量）</strong></p>
-<p><a href="/images/Kaggle_s3e14/datatable1.png">Figure 1: Data Table 1</a></p>
-<p><a href="/images/Kaggle_s3e14/datatable2.png">Figure 2: Data Table 2</a></p>
-<p><a href="/images/Kaggle_s3e14/datatable3.png">Figure 3: Data Table 3</a></p>
-<hr>
+<p>首先對於 R 的字串處理我們需要載入 <code>stringr</code> 這個 package，它是一個對於在 R 環境中進行文字探勘十分重要的套件。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">install.packages</span><span class="p">(</span><span class="s">&#34;stringr&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">stringr</span><span class="p">)</span>
+</span></span></code></pre></div><hr>
 
 
-<h2 class="relative group">Exploratory Data Analysis, EDA 
-    <div id="exploratory-data-analysis-eda" class="anchor"></div>
+<h3 class="relative group"><code>?</code> 
+    <div id="heading" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#exploratory-data-analysis-eda" aria-label="定位點">#</a>
+            style="text-decoration-line: none !important;" href="#heading" aria-label="定位點">#</a>
+    </span>        
+    
+</h3>
+<p>在這個符號前的字符代表可有可無的意思，以下面為例，若我們想在句子中抓取包含 use 的詞，我們可以透過在 d 後面加入 <code>?</code> 來使 use 的變體 used。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="s">&#34;use a used variable name is illegal.&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;used?&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;use&#34;  &#34;used&#34;</span>
+</span></span></code></pre></div><hr>
+
+
+<h3 class="relative group"><code>*</code> 
+    <div id="heading-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#heading-1" aria-label="定位點">#</a>
+    </span>        
+    
+</h3>
+<p>若是我們在搜索條件中加入這個條件，則代表在搜尋字串時需同時滿足三個條件才會被匡列成搜索對象：</p>
+<ol>
+<li>
+<p>在搜索時除了不能出現其他字符外， * 前的字符只需「不需出現」、「出現一次」或「出現多次」其中之一即可。</p>
+</li>
+<li>
+<p>滿足前後字符的條件。</p>
+</li>
+</ol>
+<p>以下面的例子來說，我們可以看到不論 b 出現多少次，都能正確的被正則表達式切割並抓取滿足條件之部分。但若是中間是 d，則因爲我們規定 a 和 c 中間只能出現零到多個 b，並不能出現其他字符，因此該字串不會被搜索。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;acd, abc, abbbbbcddddc, adc, addddddc&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;ab*c&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;ac&#34;       &#34;abc&#34;      &#34;abbbbbc&#34;</span>
+</span></span></code></pre></div><hr>
+
+
+<h3 class="relative group"><code>+</code> 
+    <div id="heading-2" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#heading-2" aria-label="定位點">#</a>
+    </span>        
+    
+</h3>
+<p>與上面不同的是，若我們希望 * 前的字符最少需出現一次，則我們可以使用 + 來做搜尋。下面是一個簡單的例子，我們可以看到在下面相較於上面的搜尋結果而言，&lsquo;acd&rsquo; 因為中間沒有 b 而沒有被抓取出。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;acd, abc, abbbbbcddddc, adc, addddddc&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;ab+c&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;abc&#34;     &#34;abbbbbc&#34;</span>
+</span></span></code></pre></div><hr>
+
+
+<h3 class="relative group"><code>()</code> 
+    <div id="heading-3" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#heading-3" aria-label="定位點">#</a>
+    </span>        
+    
+</h3>
+<p>若是我們想在正則表達式中組合條件，我們可以使用 () 來達成需求，首先我們先來看到關於合併檢索的部分，下面是一個將 ab 組合後搜尋的例子，我們可以得到滿足大於等於出現一次 ab 條件的字符串。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;acd, ababc, abbbc, abababbbcddddc, adc, adadddddc&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;(ab)+&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;abab&#34;   &#34;ab&#34;     &#34;ababab&#34;</span>
+</span></span></code></pre></div><p>接著我們也可以透過加入 | 來執行搜索中「或」的操作，例如當我們想要得到大於等於出現一次 ab 或 ad 條件的字符串時可以進行下面的操作。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;acd, ababc, abbbc, abababbbcddddc, adc, adadddddc&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;(ab|ad)+&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;abab&#34;   &#34;ab&#34;     &#34;ababab&#34; &#34;ad&#34;     &#34;adad&#34;</span>
+</span></span></code></pre></div><hr>
+
+
+<h3 class="relative group"><code>{}</code> 
+    <div id="heading-4" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#heading-4" aria-label="定位點">#</a>
+    </span>        
+    
+</h3>
+<p>在這裡若是我們想定義字符中出現的精確次數，我們可以透過加入 {} 及數字來做搜索。下面是一個簡單的範例。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;acd, abbc, abbbc, abbbbbcddddc, adc, addddddc&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;ab{2}c&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;abbc&#34;</span>
+</span></span></code></pre></div><p>而若是我們希望有一個搜索的範圍，我們可以在 {} 中加入區間來做範圍搜索。若我們想從段落中擷取出現 0~3 次 b 的字串，則簡單的範例如下。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;acd, abbc, abbbc, abbbbbcddddc, adc, addddddc&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;ab{0,3}c&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;ac&#34;    &#34;abbc&#34;  &#34;abbbc&#34;</span>
+</span></span></code></pre></div><p>同時我們希望指定一個搜索的方向，我們也可以在 {} 中只放入範圍的上界或下界來做搜索。若我們想從段落中擷取出現大於等於 3 次 b 的字串，我們可以進行如下的操作。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;acd, abbc, abbbc, abbbbbcddddc, adc, addddddc&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;ab{3,}c&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;abbbc&#34;   &#34;abbbbbc&#34;</span>
+</span></span></code></pre></div><hr>
+
+
+<h3 class="relative group"><code>[]</code> 
+    <div id="heading-5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#heading-5" aria-label="定位點">#</a>
+    </span>        
+    
+</h3>
+<p>若是我們想要搜索滿足特定字符條件的字串，我們可以使用 [] 來篩選字符，其中 <code>a-z</code> 與 <code>A-Z</code> 分別為代表大小寫字母的字符串，而 <code>0-9</code> 是代表數字的字符串。下面是我們的範例演示。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="s">&#34;abc, tiger, aabbcc, dog, 1234678, abc123456, ABCDEFG&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;[a-z]+&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;abc&#34;    &#34;tiger&#34;  &#34;aabbcc&#34; &#34;dog&#34;    &#34;abc&#34;   </span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="s">&#34;abc, tiger, aabbcc, dog, 1234678, abc123456, ABCDEFG&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;[A-Z]+&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;ABCDEFG&#34;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="s">&#34;abc, tiger, aabbcc, dog, 1234678, abc123456, ABCDEFG&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;[0-9]+&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;1234678&#34; &#34;123456&#34; </span>
+</span></span></code></pre></div><p>同時若是要將條件混用只需將條件一同輸入即可。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="s">&#34;abc, tiger, aabbcc, dog, 1234678, abc123456, ABCDEFG&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;[A-Z0-9]+&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;1234678&#34; &#34;123456&#34;  &#34;ABCDEFG&#34;</span>
+</span></span></code></pre></div><hr>
+
+
+<h3 class="relative group"><code>^</code> 
+    <div id="heading-6" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#heading-6" aria-label="定位點">#</a>
+    </span>        
+    
+</h3>
+<p>若我們要添加除外的搜索條件，只需在條件前加上 ^ 即可，下面是在句子中剔除包含數字逗號及空格的表示法。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">&lt;-</span> <span class="s">&#34;abc, tiger, aabbcc, dog, 1234678, abc123456, ABCDEFG&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nf">str_extract_all</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="s">&#34;[^0-9^,^ ]+&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># [[1]]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># [1] &#34;abc&#34;     &#34;tiger&#34;   &#34;aabbcc&#34;  &#34;dog&#34;     &#34;abc&#34;     &#34;ABCDEFG&#34;</span>
+</span></span></code></pre></div><hr>
+
+
+<h2 class="relative group">元字符 
+    <div id="%E5%85%83%E5%AD%97%E7%AC%A6" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E5%85%83%E5%AD%97%E7%AC%A6" aria-label="定位點">#</a>
     </span>        
     
 </h2>
-
-
-<h3 class="relative group">Correlation 
-    <div id="correlation" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#correlation" aria-label="定位點">#</a>
-    </span>        
-    
-</h3>
-<p>根據對數據集的初步分析，我們從 <a href="/images/Kaggle_s3e14/corr.png?width=10&amp;height=10">Figure 4: Correlation Plot</a> 中，發現右下角的 Fruitset、Fruitmass、Seeds 和 Yield 彼此之間幾乎完全呈現正相關；我們可以預期它們之間密切相關，因為更高的結果比例提升了產量基數，而單個藍莓果實的平均質量更是如此。</p>
-<p>而大黃蜂和奧斯米亞蜂也與 Fruitset、Fruitmass、Seeds 和 Yield 呈正相關，我們推測這可能是因為蜜蜂授粉對藍莓而言是結果的必要因素，因此更高的田間蜜蜂密度可以帶來更好的結果率，進而影響產量。</p>
-<p>此外，無性生殖比例大小與Fruit-set、Fruitmass、Seeds、Yield呈負相關。經過了解，我們發現這是因為有性繁殖的後代生產量將高於無性繁殖。</p>
-<p>降雨天數也與 Fruitset、Fruitmass、Seeds、Yield 呈負相關；因為雨水會導致花朵凋謝。</p>
-
-
-<h3 class="relative group">野生藍莓 vs 人工種植藍莓 
-    <div id="%E9%87%8E%E7%94%9F%E8%97%8D%E8%8E%93-vs-%E4%BA%BA%E5%B7%A5%E7%A8%AE%E6%A4%8D%E8%97%8D%E8%8E%93" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E9%87%8E%E7%94%9F%E8%97%8D%E8%8E%93-vs-%E4%BA%BA%E5%B7%A5%E7%A8%AE%E6%A4%8D%E8%97%8D%E8%8E%93" aria-label="定位點">#</a>
-    </span>        
-    
-</h3>
-<p>經過資料查詢後，我們知道市場上的藍莓可以大致上分為野生藍莓與人工種植的藍莓，而他們之間有什麼不同呢？</p>
-<p>通常人工種植的藍莓具有更高的產量，這是因為人工種植的藍莓可以在受控的環境中進行管理，包括土壤、水分、陽光、溫度等因素都可以被精確地調節，從而最大程度地促進藍莓的生長和產量。</p>
-<p>此外，人工種植的藍莓往往使用高產量的品種，並且可以利用現代農業技術和機械化設備來提高生產效率，進一步增加產量。相比之下，野生藍莓的產量通常較低，因為它們生長在自然環境中，受到自然條件的限制，例如土壤品質、水分供應、陽光照射等因素都無法被控制。此外，野生藍莓的生長可能受到天敵和自然災害的影響，進一步影響了產量。</p>
-<p>我們將降雨天數除以平均降雨天數，大致從 <a href="/images/Kaggle_s3e14/barrytype2.png">Figure 6: Berry Species</a> 將藍莓生長的天數分為兩種，I型藍莓（生長周期較短）的產量較高，我們猜測可能是人工種植，而II型藍莓（生長周期較長）的產量較低，我們猜測可能是野生藍莓。</p>
-<p>那麼我們是如何區分它們的呢？我們在 <a href="/images/Kaggle_s3e14/barrytype.png">Figure 5: Grandma Berry?</a> 中，刪除了一些單個數據，不只是因為他們相較於兩種藍莓的週期而言差距比例甚大，有些數據更是十分的不合理，請試想一下，生長週期是其他藍莓50倍長的藍莓，或許可以稱為「藍莓奶奶」了吧。在我們調整完數據之後，總共還有20,000多條數據。</p>
-
-
-<h3 class="relative group">生長環境對藍莓的影響 
-    <div id="%E7%94%9F%E9%95%B7%E7%92%B0%E5%A2%83%E5%B0%8D%E8%97%8D%E8%8E%93%E7%9A%84%E5%BD%B1%E9%9F%BF" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E7%94%9F%E9%95%B7%E7%92%B0%E5%A2%83%E5%B0%8D%E8%97%8D%E8%8E%93%E7%9A%84%E5%BD%B1%E9%9F%BF" aria-label="定位點">#</a>
-    </span>        
-    
-</h3>
-<p>接著我們想透過觀察產區的均溫，來尋找關於生長區域所帶來的特徵。我們將最高上限氣溫和最高下限氣溫相加並取平均值，得到一個新的平均溫度，我們使用新的平均溫度將產區大致分為四個區域，見<a href="/images/Kaggle_s3e14/area.png">Figure 7: Four Areas</a>。</p>
-<p>在繪製了區域和產量比較圖後，由於藍莓實際上也有適合生長的溫度，過高或過低的溫度都會抑制其生長。我們發現儘管第2區和第3區的溫度不是最高的，從 <a href="/images/Kaggle_s3e14/area2.png">Figure 8: Compare Areas</a> 中可以看出，它們的產量在四個區域中是最好的。</p>
+<p>在正則表達式中，我們一樣可以透過加入元字符來做條件的搜索，下面是一些常見的元字符及其定義，它們一樣可以透過加入上面的基本搜索來豐富我們的字串查詢系統。</p>
+<table>
+<thead>
+<tr>
+<th>字符</th>
+<th>定義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>\d</code></td>
+<td>代表數字字符，意思等同於 <code>[0-9]</code></td>
+</tr>
+<tr>
+<td><code>\w</code></td>
+<td>代表單詞字符，泛指英文、數字、下滑線</td>
+</tr>
+<tr>
+<td><code>\s</code></td>
+<td>代表空白及換行字符</td>
+</tr>
+<tr>
+<td><code>\D</code></td>
+<td>代表非數字字符，意思等同於 <code>^[0-9]</code></td>
+</tr>
+<tr>
+<td><code>\W</code></td>
+<td>代表非單詞字符</td>
+</tr>
+<tr>
+<td><code>\s</code></td>
+<td>代表非空白及換行字符</td>
+</tr>
+<tr>
+<td><code>.</code></td>
+<td>代表任意字符，但不包含換行字符</td>
+</tr>
+</tbody>
+</table>
 <hr>
-
-
-<h2 class="relative group">Method 
-    <div id="method" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#method" aria-label="定位點">#</a>
-    </span>        
-    
-</h2>
-
-
-<h3 class="relative group">K-Fold Cross Validation 
-    <div id="k-fold-cross-validation" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#k-fold-cross-validation" aria-label="定位點">#</a>
-    </span>        
-    
-</h3>
-<p>在開始模型建構之前，我們使用交叉驗證來確保模型不會過度擬合。我們採用K折交叉驗證的方法，在這裡我們簡單的做一個介紹。</p>
-<p>K 折交叉驗證將數據集分成 K 個相似大小的子集，稱為 folds，然後進行K次訓練和測試。在每一次迭代中，將其中一個 fold 作為測試集，其餘的 K-1 個 fold 作為訓練集。而在 K 次迭代完成後，將每次測試的性能評估指標取平均值，作為模型的最終性能評估。</p>
-<p>交叉驗證可以提供對模型性能的更穩健的估計，因為它在不同的子集上進行了多次測試和訓練，減少了對單一切分的依賴性，也避免了極端的樣本組合可能對模型 over fitting 的影響。在這裡的模型建構中，我們將 K 設定為 5 。</p>
-
-
-<h3 class="relative group">Compare Models 
-    <div id="compare-models" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#compare-models" aria-label="定位點">#</a>
-    </span>        
-    
-</h3>
-<p>我們總共對四種模型進行了個別的調整。本次比賽的參賽人數約 1900 人，而評分標準基於模型的平均誤差（MAE）。最後調整後的線性模型排名約為 1570，隨機森林排名為 1400，XGBoost 排名較低，在 1030 左右，表現最好的是 LightGBM，排名 334。</p>
-<p>那麼我們是如何做到的呢，資料清洗、特徵工程與對模型的調整是必要的，接下來我們會對資料的建模與調整做更近一步的介紹。</p>
-
-
-<h3 class="relative group">這是一個被設計好的問題？ 
-    <div id="%E9%80%99%E6%98%AF%E4%B8%80%E5%80%8B%E8%A2%AB%E8%A8%AD%E8%A8%88%E5%A5%BD%E7%9A%84%E5%95%8F%E9%A1%8C" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E9%80%99%E6%98%AF%E4%B8%80%E5%80%8B%E8%A2%AB%E8%A8%AD%E8%A8%88%E5%A5%BD%E7%9A%84%E5%95%8F%E9%A1%8C" aria-label="定位點">#</a>
-    </span>        
-    
-</h3>
-<p>在進入模型介紹之前，透過觀察產量的變數後，我們懷疑它是一個看起來像類別的數值變數。但我們最終將其視為連續變數。因為如果我們將這個問題視為分類問題的話，會有約500個類別，甚至有的類別只有一個樣本，基本上無法將變數視為離散的來進行預測。</p>
-<p>而我們也發現了一些資料中的不合理之處，例如變數中的 Honeybees 在標準化之後，我們發現甚至有密度超過46個標準差的蜜蜂，看起來十分可疑。考慮到這個變數與其他變數之間交互作用均對模型幾乎沒有影響，經過思考後我們決定刪除 Honeybees。</p>
-<p>但這只是一個開頭，綜合前面在整理資料時發現諸如「藍莓奶奶」之類的問題後，不禁讓我們對數據對數據的紀錄有點懷疑，甚至思考這些是否都是被刻意混入的錯誤資訊。</p>
-<p>而 Kaggle 官方的這筆資料是使用小數據產生大數據來訓練，但是如果仔細查看數據，會發現有些數據是相似更甚至是大致相同的，因此在完成模型建構後，我們懷疑測試集也是從訓練集中分離出來的。</p>
-
-
-<h3 class="relative group">Linear Regression 
-    <div id="linear-regression" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#linear-regression" aria-label="定位點">#</a>
-    </span>        
-    
-</h3>
-<p>線性模型可以很好地表達我們在數據中發現的問題。從 <a href="/images/Kaggle_s3e14/linearmodel.png">Figure 9: Linear Model</a> 中可以看到，資料實際上其實具有離散型變量的特徵，但我們對此並沒有太多辦法。</p>
-<p>就像在前面所提到，我們觀察出產量是個看起來具有類別特徵的數值變量一樣，模型也可能會獲取這種信息，因此當模型輸出預測結果時，也會傾向於預測類別，但一旦分類不正確，就會導致非常大的錯誤。這個問題在線性模型中特別嚴重，後續模型數據中段的預測性能將比線性模型好很多，但在兩端點仍會有類似問題。我們目前可能無法很好地解決這類問題。</p>
-<p>回到比較模型優劣的部分，線性模型在這些數據中的優勢是運行速度快且模型從統計角度高度可解釋，同時可以快速篩選出顯著影響模型的異常資料。缺點是模型的結果受異常值的高度影響，而且依賴於數據的線性關係，導致我們需要將資料清洗過才能有效的做呈現。</p>
-<p>由於後續模型的結果的分佈圖與線性模型相似，因此僅展示圖9，不再展示更多結果。</p>
-
-
-<h3 class="relative group">Random Forest 
-    <div id="random-forest" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#random-forest" aria-label="定位點">#</a>
-    </span>        
-    
-</h3>
-<p>關於隨機森林模型我們並沒有太多著墨於此，由於調整模型的效果不大，甚至更換種子的隨機性影響都大於模型本身的參數調整。</p>
-<p>在這筆資料中，使用它來建模的優點是它是開箱即用的，基本上不需任何的調整表現就比線性模型更佳，我想這可能是資料型態本身較適合 tree base 的模型，由於看似多分類問題的數據型態導致他可能並不是那麼適合以線性的方法來建模，不過他並沒有改善我們在線性模型中所遇到的問題，因此這個模型對我們結果的提升十分有限。</p>
-
-
-<h3 class="relative group">XGBoost 
-    <div id="xgboost" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#xgboost" aria-label="定位點">#</a>
-    </span>        
-    
-</h3>
-<p>當我們開始嘗試使用 XGBoost 建模調參時，我們從中發現了一件重要的事，甚至使我們對模型的調整方向有很大的轉變。起初我的想法源於參考原始論文後，樹深不宜太深所以均往其他參數方向做調整，但經過一系列測試後，我們將樹的深度設置為5，如此的深度超出了我的預期。</p>
-<p>基於我之前在模型調優方面的經驗，如此深的樹可能會導致過擬合。但在這裡卻能使模型的表現更好，我假設更深的樹所帶來過擬合造成結果恰好會如同我們前面所看到的數據分佈一般，即是具有類別特徵的連續型變數作為結果。</p>
-<p>同時這個結果讓我思考了一個問題：訓練集和測試集是否來自相同的底層過程？是否因為這樣的原因而導致我們原以為的過凝合其實是更優的解決方案，即我們認為會產生的過凝合問題在這筆資料中並不存在。無論如何，在這個數據集中，更深的樹深確實提高了預測準確性，並且對資料兩端值時的預測值是四個模型中較好的。</p>
-
-
-<h3 class="relative group">LightGBM 
-    <div id="lightgbm" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#lightgbm" aria-label="定位點">#</a>
-    </span>        
-    
-</h3>
-<p>接著延續我們在 XGBoost 中得到的想法，在 LightGBM 的模型調整中，我們採用了生成更多葉節點、增加迭代次數以及使用較低學習率的策略。最終我們將葉節點數量設置為28。</p>
-<p>然而，我們觀察到這些葉節點往往集中在特定的分支上，導致子模型甚至比 XGBoost 中的樹深要更深。這也超出了我對模型的預期。與我們在 XGBoost 中的發現類似，這是否意味著更複雜的樹增強了模型的準確性？進而使 LightGBM 成為我們目前解果最好的單一模型。但 LightGBM 雖然整體精度是四個模型中最高的，但它犧牲了兩端數據預測的準確度。</p>
-<hr>
-
-
-<h2 class="relative group">Conclusion 
-    <div id="conclusion" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#conclusion" aria-label="定位點">#</a>
-    </span>        
-    
-</h2>
-<p>經過大量時間和精力的投入，通過特徵工程、調整參數和改進模型擬合度，我們發現研究結果仍然相當出色，且模型的排名表現也十分優異。在這次的分析中我們有三個主要結論。</p>
-<p>首先是數據清洗與特徵工程的重要性，在清洗過程中可以挑出異常數據。否則，未經清洗的數據直接投入模型，效果通常不會很好。特徵工程經過用了解藍莓的種類和生產區域後，所生成的特徵對後續分析有很大幫助。</p>
-<p>第二是調整參數和選擇模型也非常重要。通過調整不同的參數可以提高模型的適應性，而不同模型的結果也，線性模型解釋力強，但效果不佳；隨機森林和 XGBoost 解釋力不強，但對數據兩端極值的預測值較為合理；LightGBM 雖然整體準確率最高，但犧牲了兩端的數據。如果將這這些模型結合成一個混合模型，排名分數應該會進一步提高。</p>
-<p>最後是關於後面模型的參數調整讓我獲益良多，有種讀萬卷書不如行萬里路的感覺，在完成這次資料分析前，我不曾試過這樣進行模型調整效果反而會更好的案例，也對資料樣貌有了更深一層的認知。</p>
-<hr>
-<p><strong>後續工作與感想</strong></p>
-<p>關於這筆資料，或許可以將更多異常數據提出來，形成一個新的數據集並單獨建模，這應該對提高準確性有很大幫助。也可以嘗試混合模型，但需要對混合模型的架構進行更多嘗試以求獲得更好的解果。總而言之，我們在 Kaggle Playground 競賽中學到了很多，這次分析對我而言是一次很好的嘗試。也謝謝閱讀至此的各位，我會繼續在數據分析上力求精進，以求能做出更好的成果。</p>
+<p>透過這些簡單的正則表達式語法，我們可以很好的運用它們在 R 語言中進行文字資訊的抓取，接下來我們會在下一篇文章中提到關於正則表達式的進階應用。</p>
 
         </div>
         
         
 
         
+<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5">
+    
+    <summary
+        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
+        Regex - 本文屬於一個選集。
+    </summary>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        § : 本文
+    </div>
+    
+    
+
+
+</details>
+
         
 
           
@@ -1151,8 +1105,8 @@
           
         
       <script>
-        var oid = "views_projects\/Kaggle_s3e14.md"
-        var oid_likes = "likes_projects\/Kaggle_s3e14.md"
+        var oid = "views_posts\/Code_regex.md"
+        var oid_likes = "likes_posts\/Code_regex.md"
       </script>
       
       
@@ -1172,7 +1126,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/projects/r_recommender/">
+            <a class="flex group mr-3" href="/posts/sql_mongodb_py/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1184,11 +1138,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >MovieLens 100k 推薦系統</span
+                  >如何使用 Python 處理 MongoDB 中的數據</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2022-12-21 00:00:00 &#43;0000 UTC">21 December 2022</time>
+                    <time datetime="2024-06-14 00:00:00 &#43;0000 UTC">14 June 2024</time>
                   
                 </span>
               </span>
@@ -1196,28 +1150,6 @@
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/projects/master_bgg/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >BGG 桌遊地圖</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2023-06-30 00:00:00 &#43;0000 UTC">30 June 2023</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>
