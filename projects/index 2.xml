@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Hans Website</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://hans0803.github.io/projects/</link>
     <description>Recent content in Projects on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>BGG 桌遊地圖</title>
-      <link>http://localhost:1313/projects/master_bgg/</link>
+      <link>https://hans0803.github.io/projects/master_bgg/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/master_bgg/</guid>
+      <guid>https://hans0803.github.io/projects/master_bgg/</guid>
       <description>透過抓取 BoardGameGeek 桌遊網站的遊戲資料後，將不同桌遊彼此之間距離進行可解釋的資料視覺化</description>
       
     </item>
     
     <item>
       <title>PREDICTION OF BLUEBERRY YIELD</title>
-      <link>http://localhost:1313/projects/kaggle_s3e14/</link>
+      <link>https://hans0803.github.io/projects/kaggle_s3e14/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/kaggle_s3e14/</guid>
+      <guid>https://hans0803.github.io/projects/kaggle_s3e14/</guid>
       <description>&lt;p&gt;
 
 
@@ -33,7 +33,7 @@
 
 
 &lt;figure&gt;
-    &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; alt=&#34;&#34; src=&#34;http://localhost:1313/images/Kaggle_s3e14/bluebarry.png#plt_center&#34;&gt;
+    &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; alt=&#34;&#34; src=&#34;https://hans0803.github.io/images/Kaggle_s3e14/bluebarry.png#plt_center&#34;&gt;
 
   
 &lt;/figure&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>MovieLens 100k 推薦系統</title>
-      <link>http://localhost:1313/projects/r_recommender/</link>
+      <link>https://hans0803.github.io/projects/r_recommender/</link>
       <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/r_recommender/</guid>
+      <guid>https://hans0803.github.io/projects/r_recommender/</guid>
       <description>運用電影評分資料資料嘗試構建基於不同方法的推薦系統</description>
       
     </item>

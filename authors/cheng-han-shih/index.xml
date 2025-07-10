@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cheng-Han Shih on Hans Website</title>
-    <link>http://localhost:1313/authors/cheng-han-shih/</link>
+    <link>https://hans0803.github.io/authors/cheng-han-shih/</link>
     <description>Recent content in Cheng-Han Shih on Hans Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <copyright>期許自己能在資料科學的路上走得更遠</copyright>
-    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/cheng-han-shih/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hans0803.github.io/authors/cheng-han-shih/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Plotting Bus Routes Based on GGMap</title>
-      <link>http://localhost:1313/posts/r_ggmap/</link>
+      <link>https://hans0803.github.io/posts/r_ggmap/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/r_ggmap/</guid>
+      <guid>https://hans0803.github.io/posts/r_ggmap/</guid>
       <description>&lt;p&gt;This code uses the ggmap and ggforce libraries in R to draw a map and mark circular areas within a specified radius around given locations on the map. Below are the main steps of the code:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Setting up Packages and Google Maps API Key&lt;/strong&gt;: First, we load ggmap and use the register_google function to set the Google Maps API key. This is necessary to utilize Google Maps&amp;rsquo; mapping services. The ggforce library is used to call Google Maps for subsequent plotting.&lt;/li&gt;
