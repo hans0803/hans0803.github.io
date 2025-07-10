@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learing on Hans Website</title>
+    <link>http://localhost:1313/categories/machine-learing/</link>
+    <description>Recent content in Machine Learing on Hans Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <copyright>期許自己能在資料科學的路上走得更遠</copyright>
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/machine-learing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PREDICTION OF BLUEBERRY YIELD</title>
+      <link>http://localhost:1313/projects/kaggle_s3e14/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/kaggle_s3e14/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+&lt;figure&gt;
+    &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; alt=&#34;&#34; src=&#34;http://localhost:1313/images/Kaggle_s3e14/bluebarry.png#plt_center&#34;&gt;
+
+  
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Blueberries are often hailed as a superfood due to their rich nutritional content, thus garnering high interest in their health benefits and culinary versatility. Among the various types of blueberries, wild blueberries stand out for their high content of vitamins, manganese, anthocyanins, carotenoids, potassium, zinc, and antioxidants. Notably, wild blueberries have a significantly higher antioxidant content compared to cultivated blueberries, making them a highly sought-after commodity in the agricultural market.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
